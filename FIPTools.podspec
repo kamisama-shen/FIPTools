@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   # 本地框架源文件的位置（包含所有文件）
-  s.source_files  = "FIPTools/**/*.{h,m}"
+  s.source_files  = "FIPTools/**/*"
   
 
 
