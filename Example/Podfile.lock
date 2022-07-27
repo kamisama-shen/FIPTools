@@ -42,15 +42,20 @@ PODS:
   - FIPTools/ThirdLib/YLGIFImage (1.0.1)
 
 DEPENDENCIES:
-  - FIPTools (from `../`)
+  - FIPTools (from `https://github.com/kamisama-shen/FIPTools.git`)
 
 EXTERNAL SOURCES:
   FIPTools:
-    :path: "../"
+    :git: https://github.com/kamisama-shen/FIPTools.git
+
+CHECKOUT OPTIONS:
+  FIPTools:
+    :commit: f28c0779609096b06aa5d003f8bb7e55273b6e23
+    :git: https://github.com/kamisama-shen/FIPTools.git
 
 SPEC CHECKSUMS:
   FIPTools: d66956a72bfeff9b8ee0cb7f331c6e6a875ab724
 
-PODFILE CHECKSUM: 7f57f66acded14f728c0dea8303a81b51e339b72
+PODFILE CHECKSUM: 71ae4936b687f29df755f5431adc1ff61d40f393
 
 COCOAPODS: 1.11.3
