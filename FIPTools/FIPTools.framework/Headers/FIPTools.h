@@ -55,4 +55,31 @@ FOUNDATION_EXPORT const unsigned char FIPToolsVersionString[];
 
 #import <FIPTools/KMCrashProtectorManager.h>
 
+#import <FIPTools/RSA.h>
+
+#import <FIPTools/EncodeControl.h>
+
+#import <FIPTools/lz4.h>
+
+#import <FIPTools/MSWeakTimer.h>
+
+
+#import <FIPTools/KLCPopup.h>
+
+
+
+
+
+
+#import <FIPTools/HMSegmentedControl.h>
+
+#import <FIPTools/WMPageController.h>
+
+
+
+
+#import <FIPTools/NSString+MD5.h>
+
+
+
 

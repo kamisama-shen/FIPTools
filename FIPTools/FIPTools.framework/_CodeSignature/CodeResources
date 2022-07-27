@@ -200,10 +200,6 @@
 		<data>
 		0mvf/NiZZiOWHJTuojM7ExUUWCw=
 		</data>
-		<key>Headers/SecureUtilityPlusConfig.h</key>
-		<data>
-		Cj8GKjz4ZJXEOyePDUGQMRDx7bI=
-		</data>
 		<key>Headers/SpreadsheetView+CirclularScrolling.h</key>
 		<data>
 		mOtS882AJ+jcjCQFh1adsVgeVa8=
@@ -920,17 +916,6 @@
 			<key>hash2</key>
 			<data>
 			0Cndo8rtMJeI3RQjnlakZyKo6wtSYFPE5gRIr2gORU4=
-			</data>
-		</dict>
-		<key>Headers/SecureUtilityPlusConfig.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Cj8GKjz4ZJXEOyePDUGQMRDx7bI=
-			</data>
-			<key>hash2</key>
-			<data>
-			IbvCRK7VzmpAHProbgr1JeiguT4iVp7ite2TpvW0+YQ=
 			</data>
 		</dict>
 		<key>Headers/SpreadsheetView+CirclularScrolling.h</key>

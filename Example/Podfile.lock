@@ -10,7 +10,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   FIPTools:
-    :commit: 659ae3550b95bff4f9f52398578040faf5ce63c6
+    :commit: 80234929d4fb142a7f199fe8b5221a4d023f5aaf
     :git: https://github.com/kamisama-shen/FIPTools.git
 
 SPEC CHECKSUMS:
