@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '12.0'
+
+target 'FIPTools_Example' do
+  #pod 'FIPTools', :path => '../'
+  pod 'FIPTools', :git => 'https://github.com/kamisama-shen/FIPTools.git'
+
+  target 'FIPTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

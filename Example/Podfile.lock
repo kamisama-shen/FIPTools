@@ -1,0 +1,21 @@
+PODS:
+  - FIPTools (1.0.6)
+
+DEPENDENCIES:
+  - FIPTools (from `https://github.com/kamisama-shen/FIPTools.git`)
+
+EXTERNAL SOURCES:
+  FIPTools:
+    :git: https://github.com/kamisama-shen/FIPTools.git
+
+CHECKOUT OPTIONS:
+  FIPTools:
+    :commit: 659ae3550b95bff4f9f52398578040faf5ce63c6
+    :git: https://github.com/kamisama-shen/FIPTools.git
+
+SPEC CHECKSUMS:
+  FIPTools: 210c0574134f2a6367535caf7152d752bb6f97d5
+
+PODFILE CHECKSUM: e2025efae62490d5dcd158c4b5063effe59afa08
+
+COCOAPODS: 1.11.3
