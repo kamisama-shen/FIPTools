@@ -1,6 +1,6 @@
 {
   "name": "FIPTools",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "summary": "A short description of FIPTools.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/kamisama-shen/FIPTools",
@@ -13,10 +13,93 @@
   },
   "source": {
     "git": "https://github.com/kamisama-shen/FIPTools.git",
-    "tag": "0.1.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "FIPTools/Classes/**/*"
+  "source_files": "FIPTools/FIPTools.h",
+  "subspecs": [
+    {
+      "name": "Category",
+      "source_files": "FIPTools/Classes/Category/*.{h,m}"
+    },
+    {
+      "name": "KMCrashProtector",
+      "source_files": "FIPTools/Classes/KMCrashProtector/*.{h,m}"
+    },
+    {
+      "name": "ThirdLib",
+      "subspecs": [
+        {
+          "name": "Aspects",
+          "source_files": "FIPTools/Classes/ThirdLib/Aspects/*.{h,m}"
+        },
+        {
+          "name": "Echarts",
+          "source_files": "FIPTools/Classes/ThirdLib/Echarts/*.{h,m}"
+        },
+        {
+          "name": "ExcelChart",
+          "source_files": "FIPTools/Classes/ThirdLib/ExcelChart/*.{h,m}"
+        },
+        {
+          "name": "GYRollingNoticeView",
+          "source_files": "FIPTools/Classes/ThirdLib/GYRollingNoticeView/*.{h,m}"
+        },
+        {
+          "name": "InputKit",
+          "source_files": "FIPTools/Classes/ThirdLib/InputKit/*.{h,m}"
+        },
+        {
+          "name": "KLCPopup",
+          "source_files": "FIPTools/Classes/ThirdLib/KLCPopup/*.{h,m}"
+        },
+        {
+          "name": "LZ4",
+          "source_files": "FIPTools/Classes/ThirdLib/LZ4/*.{h,m}"
+        },
+        {
+          "name": "MD5",
+          "source_files": "FIPTools/Classes/ThirdLib/MD5/*.{h,m}"
+        },
+        {
+          "name": "NullSafe",
+          "source_files": "FIPTools/Classes/ThirdLib/NullSafe/*.{h,m}"
+        },
+        {
+          "name": "PrintBeautifulLog",
+          "source_files": "FIPTools/Classes/ThirdLib/PrintBeautifulLog/*.{h,m}"
+        },
+        {
+          "name": "Rc4Base64",
+          "source_files": "FIPTools/Classes/ThirdLib/Rc4Base64/*.{h,m}"
+        },
+        {
+          "name": "RSA",
+          "source_files": "FIPTools/Classes/ThirdLib/RSA/*.{h,m}"
+        },
+        {
+          "name": "Segment",
+          "source_files": "FIPTools/Classes/ThirdLib/Segment/*.{h,m}"
+        },
+        {
+          "name": "TTRangeSlider",
+          "source_files": "FIPTools/Classes/ThirdLib/TTRangeSlider/*.{h,m}"
+        },
+        {
+          "name": "WeakTimer",
+          "source_files": "FIPTools/Classes/ThirdLib/WeakTimer/*.{h,m}"
+        },
+        {
+          "name": "WMPageController",
+          "source_files": "FIPTools/Classes/ThirdLib/WMPageController/*.{h,m}"
+        },
+        {
+          "name": "YLGIFImage",
+          "source_files": "FIPTools/Classes/ThirdLib/YLGIFImage/*.{h,m}"
+        }
+      ]
+    }
+  ]
 }

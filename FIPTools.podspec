@@ -30,7 +30,98 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'FIPTools/Classes/**/*'
+  # 本地框架源文件的位置（包含所有文件）
+  #s.source_files  = "BRPickerView/**/*.{h,m}"
+  # 一级目录（pod库中根目录所含文件）
+  s.source_files  = "FIPTools/FIPTools.h"
+  
+  # 二级目录（根目录是s，使用s.subspec设置子目录，这里设置子目录为ss）
+  s.subspec 'Category' do |ss|
+    ss.source_files = 'FIPTools/Classes/Category/*.{h,m}'
+    # 框架包含的资源包
+  end
+  
+  s.subspec 'KMCrashProtector' do |ss|
+    #.dependency 'BRPickerView/Base'
+    ss.source_files = 'FIPTools/Classes/KMCrashProtector/*.{h,m}'
+  end
+
+  s.subspec 'ThirdLib' do |ss|
+    #.dependency 'BRPickerView/Base'
+    # ss.source_files = 'FIPTools/Classes/KMCrashProtector/*.{h,m}'
+    ss.subspec 'Aspects' do |sss|
+      sss.source_files = 'FIPTools/Classes/ThirdLib/Aspects/*.{h,m}'
+    # 框架包含的资源包
+    end
+    ss.subspec 'Echarts' do |sss|
+      sss.source_files = 'FIPTools/Classes/ThirdLib/Echarts/*.{h,m}'
+    # 框架包含的资源包
+    end
+    ss.subspec 'ExcelChart' do |sss|
+      sss.source_files = 'FIPTools/Classes/ThirdLib/ExcelChart/*.{h,m}'
+    # 框架包含的资源包
+    end
+    ss.subspec 'GYRollingNoticeView' do |sss|
+      sss.source_files = 'FIPTools/Classes/ThirdLib/GYRollingNoticeView/*.{h,m}'
+    # 框架包含的资源包
+    end
+    ss.subspec 'InputKit' do |sss|
+      sss.source_files = 'FIPTools/Classes/ThirdLib/InputKit/*.{h,m}'
+    # 框架包含的资源包
+    end
+    ss.subspec 'KLCPopup' do |sss|
+      sss.source_files = 'FIPTools/Classes/ThirdLib/KLCPopup/*.{h,m}'
+    # 框架包含的资源包
+    end
+    ss.subspec 'LZ4' do |sss|
+      sss.source_files = 'FIPTools/Classes/ThirdLib/LZ4/*.{h,m}'
+    # 框架包含的资源包
+    end
+    ss.subspec 'MD5' do |sss|
+      sss.source_files = 'FIPTools/Classes/ThirdLib/MD5/*.{h,m}'
+    # 框架包含的资源包
+    end
+    ss.subspec 'NullSafe' do |sss|
+      sss.source_files = 'FIPTools/Classes/ThirdLib/NullSafe/*.{h,m}'
+    # 框架包含的资源包
+    end
+    ss.subspec 'PrintBeautifulLog' do |sss|
+      sss.source_files = 'FIPTools/Classes/ThirdLib/PrintBeautifulLog/*.{h,m}'
+    # 框架包含的资源包
+    end
+    ss.subspec 'Rc4Base64' do |sss|
+      sss.source_files = 'FIPTools/Classes/ThirdLib/Rc4Base64/*.{h,m}'
+    # 框架包含的资源包
+    end
+    ss.subspec 'RSA' do |sss|
+      sss.source_files = 'FIPTools/Classes/ThirdLib/RSA/*.{h,m}'
+    # 框架包含的资源包
+    end
+    ss.subspec 'Segment' do |sss|
+      sss.source_files = 'FIPTools/Classes/ThirdLib/Segment/*.{h,m}'
+    # 框架包含的资源包
+    end
+    ss.subspec 'TTRangeSlider' do |sss|
+      sss.source_files = 'FIPTools/Classes/ThirdLib/TTRangeSlider/*.{h,m}'
+    # 框架包含的资源包
+    end
+    ss.subspec 'WeakTimer' do |sss|
+      sss.source_files = 'FIPTools/Classes/ThirdLib/WeakTimer/*.{h,m}'
+    # 框架包含的资源包
+    end
+
+    ss.subspec 'WMPageController' do |sss|
+      sss.source_files = 'FIPTools/Classes/ThirdLib/WMPageController/*.{h,m}'
+    # 框架包含的资源包
+    end
+
+    ss.subspec 'YLGIFImage' do |sss|
+      sss.source_files = 'FIPTools/Classes/ThirdLib/YLGIFImage/*.{h,m}'
+    # 框架包含的资源包
+    end
+
+
+end
   
   # s.resource_bundles = {
   #   'FIPTools' => ['FIPTools/Assets/*.png']

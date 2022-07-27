@@ -7,27 +7,197 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0062D27125E42797DC985DDB7D7B4C6A /* Address.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C3857C5661F78833D9199359A7E1114 /* Address.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01C05E7C1479E59D7997B318605D29A1 /* ZMJScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 71A562B2BCF4BA6599F1298586915B76 /* ZMJScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0217EBBD95C03264BB863469C7A42A54 /* NSAttributedString+KMCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AB99D0843627313EFA23C3B92A450E /* NSAttributedString+KMCrash.m */; };
+		02865C0E48B21B79E7D349A54A32527B /* GYNoticeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD303F5958EE26F31FF87B5979BD3A0 /* GYNoticeViewCell.m */; };
 		03701DB2EE074C8521EB9ED0443BAEB1 /* Pods-FIPTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 325B9371E6DAD6CB36CDA47346B1F1A9 /* Pods-FIPTools_Tests-dummy.m */; };
+		041F68CFFA17C850DFB4F59D87513659 /* NSNumber+Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = A67C259ED7EF8F8E52C6E29336C1DB8D /* NSNumber+Operation.m */; };
+		05CCE52FF06C4537BE7BD5A4C0E729AA /* YLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EBDB39D1C8BB28009E49EB1DFAF30C /* YLImageView.m */; };
+		07367B0F4C0223374488096A0A1BC364 /* Gridlines.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D9B868F6E853C1DBB961AA2B56E41B /* Gridlines.m */; };
+		0800EEC989809F1385AFA8EDE1EEC840 /* NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6D4FBFB01BB528D3E87F8A95C201A /* NullSafe.m */; };
+		085FE8F3E0CBA54D58F6ED256F70BABA /* NSAttributedString+KMCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = D9161CCDEAA60B071F9805C1072332E7 /* NSAttributedString+KMCrash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		091529D44990A54157BEC77B82C88BDE /* SpreadsheetViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EA3028B9F5E2226C681553539882BF5 /* SpreadsheetViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0938FB0E9339E7861EE64BAAFCF65BE8 /* NSObject+LSDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E57A9FB2370A3A331662BA58AB039D1 /* NSObject+LSDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09C3B59C7DF31F29F6C4C6A015673E99 /* NSTimer+Crash.h in Headers */ = {isa = PBXBuildFile; fileRef = BAD959392CB4B3D4C31C0B7E4420DE64 /* NSTimer+Crash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CE4E1E8A0318044BFAE956CF37D34E1 /* PrintBeautifulLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 66C879B24F080558D75BE60AF25AA7D1 /* PrintBeautifulLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EFC2B20267BBC3CAC57160FD40F1F26 /* UISegmentedControl+UIStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 70E5A7E2E42E08743366399F13C7490A /* UISegmentedControl+UIStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EFE0046DF217288F075B6E1AFB0A6F0 /* WMMenuItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C3D1F48901F64643343AB2EC0905C1D /* WMMenuItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F5CAD43195C0CC25BE9F0B1CA98EE30 /* NSPointerArray+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ECFD22E391BE11AE3344886C35F0EF /* NSPointerArray+Extensions.m */; };
+		11D8D6B80DC83F6F9B411A7544C8F173 /* NSDictionary+WBGAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EA3CB479530E59B41856E87FFB39B1 /* NSDictionary+WBGAdd.m */; };
+		1289902A44F43213827716BC56976158 /* TTRangeSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 356C8E27BA5576E9D07CC5A23F89036D /* TTRangeSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15F91819C2B125E38920C7E4FED327DB /* SpreadsheetView+UIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF1201FE4692FC88479A0E6FAC1FA93 /* SpreadsheetView+UIScrollView.m */; };
+		194F9103DDC96691F39B67B698C54A06 /* NSIndexPath+column.m in Sources */ = {isa = PBXBuildFile; fileRef = 1017DF123C240942E90E36EA922C67B3 /* NSIndexPath+column.m */; };
+		19CDFA4A7836FDEED855DD6990A846A0 /* ReuseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 899420CC7CBBE6ED146DDE6AD37D6368 /* ReuseQueue.m */; };
+		1A60AE7DBDE5A4AFE9D6D82E13FB7B7D /* UIApplication+Visible.m in Sources */ = {isa = PBXBuildFile; fileRef = 592D41B8A4D73D653DABE050B65F2749 /* UIApplication+Visible.m */; };
+		1AF403E6296336B65EB41CFB46AD1CFB /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CE69C75B38065C0F6F4E1C0B5592D6 /* Aspects.m */; };
+		1CA64FFA8840CA6A3B1F8D14B6227F49 /* TTRangeSliderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D581D3146A29994BED6BF3C27BC4759C /* TTRangeSliderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D3D6D40A6CE6C9FB5B817F9F38D6CBC /* NSIndexPath+column.h in Headers */ = {isa = PBXBuildFile; fileRef = 848AFF425BB34637AB521F5FD7B5D5A5 /* NSIndexPath+column.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DC2DE829984477296BD653146D93C21 /* CircualrScrolling.h in Headers */ = {isa = PBXBuildFile; fileRef = A121CA5FC6A0791008F6AFA1690B0A31 /* CircualrScrolling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E500B692C4235FFC12C8BC01CF3F6DB /* WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = C22C69EED51F18DE2CF2984857C56947 /* WMPageController.m */; };
+		1E6B6A2081E472325413E2F76FA618B9 /* UISegmentedControl+UIStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = B6399C84FD4B721DB26C324662496F99 /* UISegmentedControl+UIStyle.m */; };
+		1FB0DF288F1EB54BB05D27E736E33196 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E9CC77AF7B14212A75FEEFDBD5D707 /* Location.m */; };
 		206685A8D80D94CDCCF8AEF5F368FEC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		527A3ED7B24D8668623C258BBB6406D7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FC4972AE0968353D0EFE1C69ADC9E /* ReplaceMe.m */; };
+		21D36DCA6F17365EC12215567FEAF43A /* TXLimitedTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 168EC93389F9596C9995599AEDF11D34 /* TXLimitedTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24E18F5C3B4197EFE59B099B6FA6D533 /* Location.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E0494A4DCCA09FA9DF5DC31A8F9974 /* Location.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2512959A7175BF17538AFC5444562C34 /* ZMJLayoutEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 275ED0C0400D43352B559ED48E3ED547 /* ZMJLayoutEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2628040B925D0D66C945D8C94D7EE884 /* UIColor+FIPExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EF2F20EF8B68BC01C4070A3A96AE37F /* UIColor+FIPExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2721D9E52DA62056E8EE6D544B3090B1 /* TXDynamicDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 74AFF449E81D8C10BCE426A80AC564E0 /* TXDynamicDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27878DEDA7214CDBC2E2BA871F469320 /* NSObject+KMSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ECE24B9C2ABBE019C8730F05171AF5 /* NSObject+KMSwizzle.m */; };
+		294A8D0D50DC6509EF13071EFFA10C6A /* PrintBeautifulLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D8B591CED0A50D06EC7EEBFF715E9 /* PrintBeautifulLog.m */; };
+		2AA1F9A91FD229252859573F16BA92FD /* UILabel+VExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = CB62A34F2B467403A7CFE992949DE58E /* UILabel+VExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BEE2495DF39204B0027B140E1633C11 /* NSObject+NSNotificationCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = FE844EC67A21C8C94B09A51293E78F3A /* NSObject+NSNotificationCrash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DA7707C1F5B6FD1408D4E45C5A34C17 /* WMScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = CD813134B713F26AD3446F49031C5357 /* WMScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E49FDEC8396B0BC3145F9D72AE295DA /* NSObject+LSDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F4E92BC3FF443AF6BC022C979B6DE0 /* NSObject+LSDefaults.m */; };
+		2F2DE9EE6536A18473EFFEBF8AC5929C /* NSObject+KVOCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = 5068276CDF11A1A21AB9CC3B1A86388F /* NSObject+KVOCrash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3177797B0810346868CBAC22334DF727 /* NSMutableAttributedString+VExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = A8101E49E18254A2DCCCC8151CAC8846 /* NSMutableAttributedString+VExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		321C918D163DEAF14107317B3C46DFC2 /* NSArray+BinarySearch.h in Headers */ = {isa = PBXBuildFile; fileRef = B489000493462B89A14EFDA292FF4496 /* NSArray+BinarySearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3499A92F51CE49897296F4E3422B4849 /* UIButton+FIPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FE82E4D75F7DCBA2C4253D96BFD881 /* UIButton+FIPExtension.m */; };
+		34B83B8B2A778C052E8DC6919E0E7AA4 /* SpreadsheetView+UIScrollViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 290B3355D8D3257C499A3426A557D41D /* SpreadsheetView+UIScrollViewDelegate.m */; };
+		37B47A1ADEC01D0CF37AD2F9D96CBBE3 /* NSPointerArray+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = AF78E813E85484E010CD387DA2E5D750 /* NSPointerArray+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		387FA35B0A031E762A21EC33755C6E76 /* rc4Encode.h in Headers */ = {isa = PBXBuildFile; fileRef = C91E37C0B303C1CECB89D1C186319215 /* rc4Encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38E33B3F355DDC3AF68226ADE2099D69 /* FIPTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EB9DE867B134BB42C063151AA7FF84 /* FIPTools-dummy.m */; };
+		3B69688205509FE2891E2D7D4860E70A /* WMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABDF3B41545A6618EADBE40C20484BF /* WMMenuView.m */; };
+		3BEB0D5D72BF4BE7FB4F040B0127810C /* ZMJCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6BD39E6684CF43AECE37DA1A2F499F /* ZMJCell.m */; };
+		3C0A55824606A7063F70A7813C0B2EC3 /* NSMutableAttributedString+KMCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = 3760F538B83C1BC87B1FE7A448B788C9 /* NSMutableAttributedString+KMCrash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D08DD71678FC4006E1091F37ACD6834 /* SpreadsheetView+UIScrollViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C441D33FE9C19DACE3D0D0305833EF50 /* SpreadsheetView+UIScrollViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FEDD629892C86C2E266FA432AD8FE35 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 2626DD12F4F94D52E1FFDCF85C0A5AE3 /* Address.m */; };
+		409AF7B52BC437655D6AC84DCD72D5F8 /* GYNoticeViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A6DDC087C1B7AAAE845BB18BAB60727 /* GYNoticeViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44E004508F6EF3FCE981F4EF89F127A8 /* SpreadsheetView+Touches.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588D173D642F85B035489F144F70FE /* SpreadsheetView+Touches.m */; };
+		47DE3770C6956FAEB3C92419DC608EF0 /* SpreadsheetView+UIViewHierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA09951947680974AA6014C6C5B8640 /* SpreadsheetView+UIViewHierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4810A3698BD9413B644502329CE65E7A /* TXMatchConst.h in Headers */ = {isa = PBXBuildFile; fileRef = D47EDF81C66DFB2EDABE85379F16DA9E /* TXMatchConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		487E2A1D2D4D596B4B0AA2775BB26D49 /* CircualrScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7AC1999C3D65945404B0A3284DCF2A /* CircualrScrolling.m */; };
+		4A96E8FE8E3C84C072B51FE8FD2289C3 /* SpreadsheetView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B15E986D1682B1F96916BAFC5D5189 /* SpreadsheetView+Layout.m */; };
+		4B1287AF9A381E72C79BF68D3B947D2F /* ZMJScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5D435165D8BBA7B98FA4DF3C361D53 /* ZMJScrollView.m */; };
+		4D8A2CA0E81DC2AF5559C47BFED70FB5 /* UIImage+BSKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E4D03F5725D07221FF94766AC224F /* UIImage+BSKit.m */; };
+		4E6B0E43024E01ACD45F71EBD67357FB /* WMMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 662BF209B087C4F0B84A515E1E82D32F /* WMMenuView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F4BF4E78905E82FEBC30DBA184FA539 /* EncodeControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A8E42D1F51C0E70106D872F148FB62F /* EncodeControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		503A90CCE09802EDC2394B56AE454EAC /* ReuseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A5911282BE05F15F5C527076A924245 /* ReuseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		529D949F8FE3426D3731494B0A6E6B9F /* NSDictionary+WBGAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 8483672607B8018D04D539918B9BE30F /* NSDictionary+WBGAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53D1B4DBE2AB1D69151B3EBAD5D9D782 /* NSArray+KMCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB01297E9F5F72CD877BEF5FD2D027D /* NSArray+KMCrash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54059F6407B5C2D0907FE9B4550454B7 /* NSString+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = B358CF2C5C3A93DC9D8D3C8E15A7A2C8 /* NSString+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54B2078345823ABF02798330E909B1AE /* SpreadsheetViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 9634A0C6C5336FF8563E3B84767AB701 /* SpreadsheetViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		561570E00904141AE2B0A325FA3F041A /* EncodeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B05339D8F9F1E1B372F42FCB853B3171 /* EncodeControl.m */; };
+		56C501413A9784FC03DB01585A46BECA /* SpreadsheetView+UISnapshotting.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DD3A7D158CEE6BE2A6DAFCCFCC71BF /* SpreadsheetView+UISnapshotting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56D0EBBE44699CA33E046DB838868EAB /* WMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A118A13E03A845ED1E97D19D763ADC92 /* WMMenuItem.m */; };
+		56D77D7327612872066E370C4BA80BAA /* NSDate+DLExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 992DCE8F81C9B876C176B16B91633C34 /* NSDate+DLExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		575543B87883A70978FA9B163B462699 /* KMCrashLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9337146E92BB4190A8237A5BFFAD35BC /* KMCrashLog.m */; };
+		58793BCBC1D6D1F3999393ADDACFD53C /* NSDictionary+KMCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD9DF57316A993BC086D516105AB058 /* NSDictionary+KMCrash.m */; };
+		59C781F09FEE2755CEBF26374544E699 /* Define.h in Headers */ = {isa = PBXBuildFile; fileRef = F0B80C70AC63DCD0C835B161EAB4ED76 /* Define.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BF889FBD82C140A95D0EEB252C1AFB9 /* NSMutableString+KMCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 5738D87DE00C68AB8420C8FA0A50EF1F /* NSMutableString+KMCrash.m */; };
+		5C31952191C663BEA8457FBC8AE67511 /* TXMatchConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 168D3DF1C3CA481E39CD67B3B8447B17 /* TXMatchConst.m */; };
+		5E86EA873CA230CE7E60A862BCE50ED3 /* ZMJCellRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A9C525D19BDBA6C3875BAD7006AFCE /* ZMJCellRange.m */; };
+		5EAC0CCD8F0C4ED40BA3E6781AEE7653 /* RSA.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D25B503DFEA614B62F8296A5A91869F /* RSA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EEC4A9871C32220D77D6CF4A5D60CAB /* NSObject+KMSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = F67B61E70F74310C70112CE1AC5DD4A1 /* NSObject+KMSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FBBBFFFA0D4ABA3F38F96D44FF16BD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		66452A1D278A43AD82F4AA3418956843 /* TXMatchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD5D38CF3F19736F67A0CE3848257E /* TXMatchManager.m */; };
+		6A52AAB7846CB8C6F0809AD7930D6C5C /* NSArray+WBGAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF54C503DFAD310CECCC9E73188E39A /* NSArray+WBGAddition.m */; };
+		6F749DDFB9A31698C8986DD3163B4ABE /* GYRollingNoticeView.h in Headers */ = {isa = PBXBuildFile; fileRef = C2DD18F27DE42BBE5F918F737E8B9BDF /* GYRollingNoticeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70B2BCD80B23A9AB6C0E14E19C97CAF2 /* Borders.h in Headers */ = {isa = PBXBuildFile; fileRef = A1A7E1EBAAFD7B28B858370F6F2E081B /* Borders.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71B06153509BC8D88A6B90774FBD60C9 /* UIButton+FIPExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 5818B2BEF729F7A1EDCCE71F6DFEC928 /* UIButton+FIPExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7254C87A27FFC7F6BEAB4D89028CF775 /* Pods-FIPTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A1C5B8E84C75BA34D95FA58B0C8ED5E /* Pods-FIPTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72C6022A2D372267463909F4B77394EC /* NSMutableString+KMCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = FDB531C0C74218A7716005AFAF6911F8 /* NSMutableString+KMCrash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72E096FA17D9905FA43A8F43B840D9A2 /* WMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416FBBE4C5F32EF392D8C3409B1CC5C /* WMScrollView.m */; };
+		73F78B467725B243C859D00E2DDAB585 /* GYRollingNoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84421FBC9F3289CB04BA058EB2CD83C3 /* GYRollingNoticeView.m */; };
+		7668ABD4858D4FA54BAE20DA12913341 /* UIViewController+WMPageController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3579B39455B58DE76397082567489274 /* UIViewController+WMPageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A961EBCCAAEBA30231270834C546539 /* YLGIFImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4898D1656283A8F079F3888D7C0B51 /* YLGIFImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CE47BE81C4F8F23DADD973F7C52717A /* NSString+VExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 330DE30CF4C456379235DC45B3D595AC /* NSString+VExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EB38A78817EB71E0ABD59BB400DA908 /* SpreadsheetView+Touches.h in Headers */ = {isa = PBXBuildFile; fileRef = 474F1FD0337629D689CD357743B4CA1E /* SpreadsheetView+Touches.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		809EABC47CD728B91DFE6298B3C25B93 /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F26BC959CA0A83D1E7A677625D74AA7 /* Aspects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82000B1B426A3D5485527A6217DED968 /* SpreadsheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C51975B246E4DBEE90070188814A4E8 /* SpreadsheetView.m */; };
+		8204A0CD02D6865ECAB46C4A0F47DA73 /* KMCrashLog.h in Headers */ = {isa = PBXBuildFile; fileRef = CC500934325FC8882E20A09B336E405E /* KMCrashLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		845F021C410ABDEE1C2F7C33E7D03C6B /* SpreadsheetView+CirclularScrolling.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C479D69705C1FDC123EA3F9CE12E93 /* SpreadsheetView+CirclularScrolling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		863FF6FC0D58AD3EE872932257BC1B32 /* NSDate+DLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 156313E2B1543B0454DBE3484AC7A8B0 /* NSDate+DLExtension.m */; };
+		88AABB1D24C3CEE3689C7288A32F0BF4 /* NSArray+EmptySafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 851688CB97555507365E4E8201BA0410 /* NSArray+EmptySafe.m */; };
+		88C94E079EFF66897C5D24405998EB36 /* YLImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 743B763032A4546AA9ADB59EDEF90B26 /* YLImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B5A8CF01E52A5CF4AB3B367CC0CFA12 /* FIPTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 07402A599DF212F6F8B4DED2360762AF /* FIPTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C78EE0519C474F044FA32F5818AE64B /* TXLimitedTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC8CFE137141EA8C47710BAA8B6AA0F /* TXLimitedTextView.m */; };
+		8D37DF5715A8DF622402B1BDFC462B76 /* NSObject+NSNotificationCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DF4174214138B194B8742CD8E89D8 /* NSObject+NSNotificationCrash.m */; };
+		8E093F779A8D66E12332B01CC6498234 /* TXDynamicDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0DD8B2BBE7776F01033556B645587 /* TXDynamicDelegate.m */; };
+		8E34D165BF101AC2462A05ACA7E6E34D /* NSString+VExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 219424F93427CA3AF9BE867B17AC70B9 /* NSString+VExtension.m */; };
+		8E4D682A7AE6A935A586E65FE2AE8567 /* lz4.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FCFFA51FF5B7FD53D0C25207CF09B98 /* lz4.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E7BB27CAC4409162967269745D470D8 /* Gridlines.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAF384F361164A4159E0147C51B2B4E /* Gridlines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F7B79F16B67BD6D939A5989F5EF6F50 /* ZMJGanttChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 129EB009751EC7C6E8884049340BC488 /* ZMJGanttChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		911F563C617517CCB7D8B1350D5B30C8 /* UIViewController+WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BD8B0E1E5AE2877931DB225813DE45 /* UIViewController+WMPageController.m */; };
+		92BE5AF89BA48E702FAA99B821F9C89D /* NSArray+KMCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBA035EEB5AFA261BE9E8E441C745C5 /* NSArray+KMCrash.m */; };
+		96406D4550B2736587C99DBB7A2D1FEF /* SpreadsheetView+UIScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F8FE571FD330505E901B2FCA912D3E2 /* SpreadsheetView+UIScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9687532186D64CE54EED9C1856C631C9 /* TXMatchManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6519EB6A396F9A8AC5E22FB1918D23 /* TXMatchManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98A018CACB1FD3F0C8B8D8B098B167E0 /* WMPageController.h in Headers */ = {isa = PBXBuildFile; fileRef = 072E4B91A1A73304DE8C48736ED635A4 /* WMPageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98D3F3E3A239B82F1E403A0597ACE866 /* Borders.m in Sources */ = {isa = PBXBuildFile; fileRef = 920CCFAF83F327E4EF3907AA682DF4B5 /* Borders.m */; };
+		9930EEEA9734767A9514D6678E573849 /* TXLimitedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0046DAEF1D0CED4E08878BDC666FDB /* TXLimitedTextField.m */; };
+		9C482969B32754E040E1B8F0EE86B8B1 /* TTRangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E146AAB2CE143929838FBA11EBFD793 /* TTRangeSlider.m */; };
+		9F4B8858D5A1BEBAE457298C195A4FCF /* SpreadsheetView.h in Headers */ = {isa = PBXBuildFile; fileRef = 35A8BA0EC96F1C1CE62DB93F55E7FE55 /* SpreadsheetView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A09177DAAF773CDD4262260BE9CE084A /* YLGIFImageInSwiftProjectDemo-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = CC1B3A9E7B6F5C845F7C5C5993644854 /* YLGIFImageInSwiftProjectDemo-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A21F7FA62CCD2090AEF511EA59094F84 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 00811E95678A173D184A3195064E36E0 /* NSString+MD5.m */; };
+		A7F271945088230A22BF99016E2DE172 /* ZMJCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F3E811CD9A06C28695DD65D9266A6AFF /* ZMJCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A875AFAA238567C7A4C9C8D25CA06A95 /* NSObject+KVOCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E8068294E9D7A28914A052BD093898 /* NSObject+KVOCrash.m */; };
+		A8F9F8A253DE4DDA79B15EED9F7AB515 /* NSMutableAttributedString+KMCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A56B1B27F1186F82FE33DE9A5FD4BC /* NSMutableAttributedString+KMCrash.m */; };
+		A9C75A80AEAD72FF40F54565F8DAE5C7 /* NSObject+SelectorCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = FA2C57FD5EAE4B0C5258C2DD89A11F8E /* NSObject+SelectorCrash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD2BFF1A5E95AABB1D33F11F5B34210F /* SpreadsheetView+CirclularScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 28826A075C09CB2DAD4FCA06C24AAF8F /* SpreadsheetView+CirclularScrolling.m */; };
+		B152E852C7A33A68ABA9B693F7DCD8FA /* NSString+Calculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03872972E035E91BD4C1A73A9E7B28FA /* NSString+Calculate.m */; };
+		B27EFF864C4AF3E2E7E725C87F6867C4 /* NSArray+BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4AAE7221F47225D8DB417A5412C4F6 /* NSArray+BinarySearch.m */; };
+		B48521C6E3D0F18F47A250E727D62A3F /* NSMutableArray+KMCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = AC546D212AB5999FF543991E4FF6AA29 /* NSMutableArray+KMCrash.m */; };
+		B56C12DD6AE180277492CD8A4F177A19 /* lz4.m in Sources */ = {isa = PBXBuildFile; fileRef = 297FB392E350C5956D3C689DF27B5AE8 /* lz4.m */; };
+		B5C6CF196BB9D966284D64CE53800394 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED6FE387C6A06B5F112ED791E5A73D9 /* HMSegmentedControl.m */; };
+		BA086E1BA760EE0EA2360757772AB82C /* NSNumber+Operation.h in Headers */ = {isa = PBXBuildFile; fileRef = 931B21F725BB508B2CDB2D5BEDB133C5 /* NSNumber+Operation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAB0DD41061751A84CC0567AB766C2F2 /* SpreadsheetView+Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = 97EE655C5B68C09B0921185207875DBA /* SpreadsheetView+Layout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAB7BE9B8105FBB9D16843F61F1B4943 /* NSMutableArray+KMCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ECFBE1249F2D8EB635886F237D738EF /* NSMutableArray+KMCrash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE86994C58FA380CC4D737601423E97D /* NSArray+DeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE87DECA06A852F27B626FC9C4042F4 /* NSArray+DeepCopy.m */; };
 		C1ADBB46977EB978BB9BBE8E9C750739 /* Pods-FIPTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4550EC06F77E7BFB48FA850C9450FC59 /* Pods-FIPTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1EDA4C0DC54CBB9A75C7C0A46852C0D /* FIPTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC8A192E979AF0981DADCD5E5DE5469 /* FIPTools-dummy.m */; };
-		D3125A502B37C450B525A949B25C4E9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C2A85973E7A90ED00E6E68535F65C8DC /* KLCPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDF25527B9C4E2061BFCD97D5BC7652 /* KLCPopup.m */; };
+		C3456A51F93B3B36E4D73F8BA2AFAEDB /* SpreadsheetView+UIViewHierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C0F4F32A9B518E5AE11CA4E6C78B40 /* SpreadsheetView+UIViewHierarchy.m */; };
+		C6FA98B21EF04CF02BF52A2400339717 /* KMCrashProtectorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 60DEFB9C8FE178EA9263D148414D49DB /* KMCrashProtectorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C76C6777189037258217646327863596 /* NSString+KMCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = 944FC9BCFE14EE4F83E374B2915D28F8 /* NSString+KMCrash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9E52871643E2B4DFF8C61301D348A52 /* NSArray+EmptySafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 141A19B36AA536EFC5357D5408E06860 /* NSArray+EmptySafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBC9E087D473096217895E9093DEF47D /* NSString+KMCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC21B8C500A58E622DD0C9493C667EA /* NSString+KMCrash.m */; };
+		CBDADD15ED2869A543193CBF84A882FD /* UIColor+FIPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FE70F51954A2EC07BAF76BD988F363 /* UIColor+FIPExtension.m */; };
+		CBF4553BB09CBE283ADB5D46AE06DDB5 /* WMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE77ACE2C1D144627B84B0C2A26211 /* WMProgressView.m */; };
+		CD3AF79ABE40019D0977A8CE39C4E950 /* MSWeakTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = A75211474085FCE807B7016EAE1B477E /* MSWeakTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE7035388A1703DBFD9F0873B04BE66A /* ZMJCellRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BAF848675041453D33A76006AEFD992 /* ZMJCellRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1A7939AD60C55A824BA75EDC95C863B /* UIApplication+Visible.h in Headers */ = {isa = PBXBuildFile; fileRef = DFF8970D5023BBAE184ACC91C9AA4AAA /* UIApplication+Visible.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2FC9D091D6013247C0AE672E5F2B8DA /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 216734F7DE4B63315EDB9A290065DB55 /* NSString+Extensions.m */; };
+		D306DB6DE6F444A7F4D20701EE83D41A /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7D2607672D11A048C2D4E8F3A5A870 /* RSA.m */; };
+		D4A960A1665AB4A1D103B66D358DAD9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D4E47D5D16391BBD4C22BEA0B7A8BBDC /* NSArray+DeepCopy.h in Headers */ = {isa = PBXBuildFile; fileRef = EBB1D8D0883DB6AD01094A6F802FFA71 /* NSArray+DeepCopy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D947465B9475896B7196EAFE5EAF9467 /* NSObject+SelectorCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F7AF28D061F6C8CF8E991E2B11CE9B /* NSObject+SelectorCrash.m */; };
+		DA0E2EB090A06862C2CB6FF02A8DECF8 /* HMSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D709020D0E398B60FB90BEF84D96B93 /* HMSegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA3F326C04D214EFC2616B59A387A455 /* Pods-FIPTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE896EA91E6A01CE7244A9B8602BF2D /* Pods-FIPTools_Example-dummy.m */; };
-		F4BEB6DCC820E4733249E7C753B48DC8 /* FIPTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD2A29E064198D0FEBE53EB16318A004 /* FIPTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB8B22C4F258817DAF78A4E8FC62D29D /* UIControl+Click.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B548DA534346CBF0BCF3EB8BA341FF /* UIControl+Click.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCCD1F3058226485FC596AC583C5AD9F /* NSString+BHURLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C43817BAEA75CD86B8EA97FDAA090C /* NSString+BHURLHelper.m */; };
+		DD9CE0E873D87C7B87E7442196E70EFA /* NSString+Calculate.h in Headers */ = {isa = PBXBuildFile; fileRef = 218BDBCECE343C3DE9B037068B939E83 /* NSString+Calculate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEB6F2A6CCA0EECCC83359CC9D149D7E /* WMProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6961D88CAE67C730A4700BB18ABE9905 /* WMProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E061A0FB304CEF5ED9C8C38CD732022C /* KLCPopup.h in Headers */ = {isa = PBXBuildFile; fileRef = D966A7B415B2BF59939C2F826849208F /* KLCPopup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2FBF69E6578B0E0B6FB7E0705FA22C2 /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D4CF2E7B9B6A7CF2398E30BA62DA835 /* NSString+MD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E42291756BD1F2B89BFBA8B94D2C89D9 /* ZMJLayoutEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F5258B8A0E2FF4692B07FA31E867D9 /* ZMJLayoutEngine.m */; };
+		E4E4E6B476CC292676F6C29463017B6A /* NSTimer+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 478C85C0E254F9A53612019709D15267 /* NSTimer+Crash.m */; };
+		E4F9D7813B7BF753D36C69022AD4EBE7 /* UILabel+VExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB80672386F60C08D57DF1DF7EB726D /* UILabel+VExtension.m */; };
+		E5C17ED77B75B631F5401A58B56532B3 /* UIImage+BSKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BE1580DDD716F62591D496A8EC302CC /* UIImage+BSKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6107570231772A0C2C0436B902CE8F1 /* TXLimitedTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FBCE1F65AAA10E794F2231A96C2ECC9 /* TXLimitedTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6F98FBF7E62C071D93EF1474E30DDDB /* NSString+BHURLHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D1FA37DA786C80965BB62E866C4FCF7 /* NSString+BHURLHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7593169BF04C80C0FF7A8F82F97F718 /* base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 2050B0F0F4780147853CD1EF4EC5807B /* base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8039CAA26590908DB2F36E4D67FE756 /* FIPTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A25DF1BCE1A4C193152008058A019E6 /* FIPTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8041CADF92456F2734B0CFDE5A3CE2F /* SpreadsheetView+UISnapshotting.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CF05D662D116F434A734957B8D349B /* SpreadsheetView+UISnapshotting.m */; };
+		E907EFF7B3434FBEBF7E7A35FE773332 /* KMCrashProtectorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FAC933B6E460D5746C466532AD90174 /* KMCrashProtectorManager.m */; };
+		E96B25DD3A79EE65FB05B666D8AB8C7F /* InputKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 07AD65E14B2116BEB944F3B12DC4DF02 /* InputKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F131140F59B7177BBC4E2A9ED24B246C /* YLGIFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 761CB6F95D8DE366246FD309758B3768 /* YLGIFImage.m */; };
+		F28B9E6D84B2EA25F366EB9C76844A73 /* NSDictionary+KMCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = 8836B20D987E964C19A2E9E380F4138E /* NSDictionary+KMCrash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F349BFC2429A3AF19CC4C532ACF77CE4 /* NSMutableAttributedString+VExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E2CC20748AF28C55CB72FF01EE3DDB /* NSMutableAttributedString+VExtension.m */; };
+		F3810F48A32E85D1CC4438C149B68600 /* NSArray+WBGAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 19CD785A6410067CA58E1AF24243C612 /* NSArray+WBGAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F55C0990398B396CCC3596DB9B4F06F6 /* NSMutableDictionary+KMCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = 31215B6417F0BCA34174892565C05E1C /* NSMutableDictionary+KMCrash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F98013E30606FDB1C02D9B94ED278EBA /* UIControl+Click.m in Sources */ = {isa = PBXBuildFile; fileRef = E830BEB01A6C28CAC8FF38002555345A /* UIControl+Click.m */; };
+		FD419D96AECD420FFB546BFF089B9196 /* NSMutableDictionary+KMCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF4895F3B199ACCC33D58E575E2DA9C /* NSMutableDictionary+KMCrash.m */; };
+		FDB89CC93A249F9255D1DC1237DD007F /* MSWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 748F531A5A07B39DD50A34BEB167074C /* MSWeakTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0C1DFB2F9FB7AF9F3C23D090EC1268D6 /* PBXContainerItemProxy */ = {
+		0C0520E8C3EB6685099E4DDE1C437E3D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 96B0737DC31FB75109F1EBAC17DE17F1;
 			remoteInfo = "Pods-FIPTools_Example";
 		};
-		DF9B21B5BBE9B43982190A74BA28DA70 /* PBXContainerItemProxy */ = {
+		EF6828A5A17AA84D708F8F9E644C9B83 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,39 +207,209 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0573F4F5C5FAF300A42669D881DFBD56 /* FIPTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FIPTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		113B391CB1D59DA728F2047C521DC375 /* FIPTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FIPTools.debug.xcconfig; sourceTree = "<group>"; };
-		323EBFF6C9BDB9D48D05B7B831A56C64 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		00811E95678A173D184A3195064E36E0 /* NSString+MD5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5.m"; path = "FIPTools/Classes/ThirdLib/MD5/NSString+MD5.m"; sourceTree = "<group>"; };
+		02EBDB39D1C8BB28009E49EB1DFAF30C /* YLImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLImageView.m; path = FIPTools/Classes/ThirdLib/YLGIFImage/YLImageView.m; sourceTree = "<group>"; };
+		03872972E035E91BD4C1A73A9E7B28FA /* NSString+Calculate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Calculate.m"; path = "FIPTools/Classes/Category/NSString+Calculate.m"; sourceTree = "<group>"; };
+		06BD8B0E1E5AE2877931DB225813DE45 /* UIViewController+WMPageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+WMPageController.m"; path = "FIPTools/Classes/ThirdLib/WMPageController/UIViewController+WMPageController.m"; sourceTree = "<group>"; };
+		072E4B91A1A73304DE8C48736ED635A4 /* WMPageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMPageController.h; path = FIPTools/Classes/ThirdLib/WMPageController/WMPageController.h; sourceTree = "<group>"; };
+		07402A599DF212F6F8B4DED2360762AF /* FIPTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIPTools.h; path = FIPTools/FIPTools.h; sourceTree = "<group>"; };
+		07AD65E14B2116BEB944F3B12DC4DF02 /* InputKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InputKit.h; path = FIPTools/Classes/ThirdLib/InputKit/InputKit.h; sourceTree = "<group>"; };
+		0A8E42D1F51C0E70106D872F148FB62F /* EncodeControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EncodeControl.h; path = FIPTools/Classes/ThirdLib/Rc4Base64/EncodeControl.h; sourceTree = "<group>"; };
+		0BAF848675041453D33A76006AEFD992 /* ZMJCellRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMJCellRange.h; path = FIPTools/Classes/ThirdLib/ExcelChart/ZMJCellRange.h; sourceTree = "<group>"; };
+		0BC21B8C500A58E622DD0C9493C667EA /* NSString+KMCrash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+KMCrash.m"; path = "FIPTools/Classes/KMCrashProtector/NSString+KMCrash.m"; sourceTree = "<group>"; };
+		0CF1201FE4692FC88479A0E6FAC1FA93 /* SpreadsheetView+UIScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+UIScrollView.m"; path = "FIPTools/Classes/ThirdLib/ExcelChart/SpreadsheetView+UIScrollView.m"; sourceTree = "<group>"; };
+		0DDF25527B9C4E2061BFCD97D5BC7652 /* KLCPopup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KLCPopup.m; path = FIPTools/Classes/ThirdLib/KLCPopup/KLCPopup.m; sourceTree = "<group>"; };
+		0ECFBE1249F2D8EB635886F237D738EF /* NSMutableArray+KMCrash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+KMCrash.h"; path = "FIPTools/Classes/KMCrashProtector/NSMutableArray+KMCrash.h"; sourceTree = "<group>"; };
+		0EF2F20EF8B68BC01C4070A3A96AE37F /* UIColor+FIPExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+FIPExtension.h"; path = "FIPTools/Classes/Category/UIColor+FIPExtension.h"; sourceTree = "<group>"; };
+		1017DF123C240942E90E36EA922C67B3 /* NSIndexPath+column.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSIndexPath+column.m"; path = "FIPTools/Classes/ThirdLib/ExcelChart/NSIndexPath+column.m"; sourceTree = "<group>"; };
+		129EB009751EC7C6E8884049340BC488 /* ZMJGanttChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMJGanttChart.h; path = FIPTools/Classes/ThirdLib/ExcelChart/ZMJGanttChart.h; sourceTree = "<group>"; };
+		141A19B36AA536EFC5357D5408E06860 /* NSArray+EmptySafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+EmptySafe.h"; path = "FIPTools/Classes/Category/NSArray+EmptySafe.h"; sourceTree = "<group>"; };
+		156313E2B1543B0454DBE3484AC7A8B0 /* NSDate+DLExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+DLExtension.m"; path = "FIPTools/Classes/Category/NSDate+DLExtension.m"; sourceTree = "<group>"; };
+		168D3DF1C3CA481E39CD67B3B8447B17 /* TXMatchConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TXMatchConst.m; path = FIPTools/Classes/ThirdLib/InputKit/TXMatchConst.m; sourceTree = "<group>"; };
+		168EC93389F9596C9995599AEDF11D34 /* TXLimitedTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXLimitedTextField.h; path = FIPTools/Classes/ThirdLib/InputKit/TXLimitedTextField.h; sourceTree = "<group>"; };
+		19CD785A6410067CA58E1AF24243C612 /* NSArray+WBGAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+WBGAddition.h"; path = "FIPTools/Classes/ThirdLib/ExcelChart/NSArray+WBGAddition.h"; sourceTree = "<group>"; };
+		1A25DF1BCE1A4C193152008058A019E6 /* FIPTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FIPTools-umbrella.h"; sourceTree = "<group>"; };
+		1A6DDC087C1B7AAAE845BB18BAB60727 /* GYNoticeViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYNoticeViewCell.h; path = FIPTools/Classes/ThirdLib/GYRollingNoticeView/GYNoticeViewCell.h; sourceTree = "<group>"; };
+		1CB80672386F60C08D57DF1DF7EB726D /* UILabel+VExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+VExtension.m"; path = "FIPTools/Classes/Category/UILabel+VExtension.m"; sourceTree = "<group>"; };
+		1F26BC959CA0A83D1E7A677625D74AA7 /* Aspects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Aspects.h; path = FIPTools/Classes/ThirdLib/Aspects/Aspects.h; sourceTree = "<group>"; };
+		2050B0F0F4780147853CD1EF4EC5807B /* base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = base64.h; path = FIPTools/Classes/ThirdLib/Rc4Base64/base64.h; sourceTree = "<group>"; };
+		216734F7DE4B63315EDB9A290065DB55 /* NSString+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Extensions.m"; path = "FIPTools/Classes/Category/NSString+Extensions.m"; sourceTree = "<group>"; };
+		218BDBCECE343C3DE9B037068B939E83 /* NSString+Calculate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Calculate.h"; path = "FIPTools/Classes/Category/NSString+Calculate.h"; sourceTree = "<group>"; };
+		219424F93427CA3AF9BE867B17AC70B9 /* NSString+VExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+VExtension.m"; path = "FIPTools/Classes/Category/NSString+VExtension.m"; sourceTree = "<group>"; };
+		2626DD12F4F94D52E1FFDCF85C0A5AE3 /* Address.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Address.m; path = FIPTools/Classes/ThirdLib/ExcelChart/Address.m; sourceTree = "<group>"; };
+		275ED0C0400D43352B559ED48E3ED547 /* ZMJLayoutEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMJLayoutEngine.h; path = FIPTools/Classes/ThirdLib/ExcelChart/ZMJLayoutEngine.h; sourceTree = "<group>"; };
+		28826A075C09CB2DAD4FCA06C24AAF8F /* SpreadsheetView+CirclularScrolling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+CirclularScrolling.m"; path = "FIPTools/Classes/ThirdLib/ExcelChart/SpreadsheetView+CirclularScrolling.m"; sourceTree = "<group>"; };
+		28B548DA534346CBF0BCF3EB8BA341FF /* UIControl+Click.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+Click.h"; path = "FIPTools/Classes/KMCrashProtector/UIControl+Click.h"; sourceTree = "<group>"; };
+		28EA3CB479530E59B41856E87FFB39B1 /* NSDictionary+WBGAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+WBGAdd.m"; path = "FIPTools/Classes/ThirdLib/ExcelChart/NSDictionary+WBGAdd.m"; sourceTree = "<group>"; };
+		28F5258B8A0E2FF4692B07FA31E867D9 /* ZMJLayoutEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZMJLayoutEngine.m; path = FIPTools/Classes/ThirdLib/ExcelChart/ZMJLayoutEngine.m; sourceTree = "<group>"; };
+		290B3355D8D3257C499A3426A557D41D /* SpreadsheetView+UIScrollViewDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+UIScrollViewDelegate.m"; path = "FIPTools/Classes/ThirdLib/ExcelChart/SpreadsheetView+UIScrollViewDelegate.m"; sourceTree = "<group>"; };
+		297FB392E350C5956D3C689DF27B5AE8 /* lz4.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = lz4.m; path = FIPTools/Classes/ThirdLib/LZ4/lz4.m; sourceTree = "<group>"; };
+		2C0046DAEF1D0CED4E08878BDC666FDB /* TXLimitedTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TXLimitedTextField.m; path = FIPTools/Classes/ThirdLib/InputKit/TXLimitedTextField.m; sourceTree = "<group>"; };
+		2E57A9FB2370A3A331662BA58AB039D1 /* NSObject+LSDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+LSDefaults.h"; path = "FIPTools/Classes/Category/NSObject+LSDefaults.h"; sourceTree = "<group>"; };
+		2F2E4D03F5725D07221FF94766AC224F /* UIImage+BSKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+BSKit.m"; path = "FIPTools/Classes/Category/UIImage+BSKit.m"; sourceTree = "<group>"; };
+		2FCFFA51FF5B7FD53D0C25207CF09B98 /* lz4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lz4.h; path = FIPTools/Classes/ThirdLib/LZ4/lz4.h; sourceTree = "<group>"; };
+		31215B6417F0BCA34174892565C05E1C /* NSMutableDictionary+KMCrash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+KMCrash.h"; path = "FIPTools/Classes/KMCrashProtector/NSMutableDictionary+KMCrash.h"; sourceTree = "<group>"; };
 		325B9371E6DAD6CB36CDA47346B1F1A9 /* Pods-FIPTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FIPTools_Tests-dummy.m"; sourceTree = "<group>"; };
+		32FE77ACE2C1D144627B84B0C2A26211 /* WMProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMProgressView.m; path = FIPTools/Classes/ThirdLib/WMPageController/WMProgressView.m; sourceTree = "<group>"; };
+		330DE30CF4C456379235DC45B3D595AC /* NSString+VExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+VExtension.h"; path = "FIPTools/Classes/Category/NSString+VExtension.h"; sourceTree = "<group>"; };
+		33A9C525D19BDBA6C3875BAD7006AFCE /* ZMJCellRange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZMJCellRange.m; path = FIPTools/Classes/ThirdLib/ExcelChart/ZMJCellRange.m; sourceTree = "<group>"; };
+		356C8E27BA5576E9D07CC5A23F89036D /* TTRangeSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTRangeSlider.h; path = FIPTools/Classes/ThirdLib/TTRangeSlider/TTRangeSlider.h; sourceTree = "<group>"; };
+		3579B39455B58DE76397082567489274 /* UIViewController+WMPageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+WMPageController.h"; path = "FIPTools/Classes/ThirdLib/WMPageController/UIViewController+WMPageController.h"; sourceTree = "<group>"; };
 		359A7ACCCE577B41FD532F614B8AD91B /* Pods-FIPTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FIPTools_Example-frameworks.sh"; sourceTree = "<group>"; };
+		35A8BA0EC96F1C1CE62DB93F55E7FE55 /* SpreadsheetView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpreadsheetView.h; path = FIPTools/Classes/ThirdLib/ExcelChart/SpreadsheetView.h; sourceTree = "<group>"; };
+		36ECE24B9C2ABBE019C8730F05171AF5 /* NSObject+KMSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+KMSwizzle.m"; path = "FIPTools/Classes/KMCrashProtector/NSObject+KMSwizzle.m"; sourceTree = "<group>"; };
+		3760F538B83C1BC87B1FE7A448B788C9 /* NSMutableAttributedString+KMCrash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableAttributedString+KMCrash.h"; path = "FIPTools/Classes/KMCrashProtector/NSMutableAttributedString+KMCrash.h"; sourceTree = "<group>"; };
 		38AE21356D14F5BDB9CAECFD8DCE5AD3 /* Pods-FIPTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FIPTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3A1C5B8E84C75BA34D95FA58B0C8ED5E /* Pods-FIPTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FIPTools_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3BF54C503DFAD310CECCC9E73188E39A /* NSArray+WBGAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+WBGAddition.m"; path = "FIPTools/Classes/ThirdLib/ExcelChart/NSArray+WBGAddition.m"; sourceTree = "<group>"; };
+		3C3857C5661F78833D9199359A7E1114 /* Address.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Address.h; path = FIPTools/Classes/ThirdLib/ExcelChart/Address.h; sourceTree = "<group>"; };
+		3E146AAB2CE143929838FBA11EBFD793 /* TTRangeSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTRangeSlider.m; path = FIPTools/Classes/ThirdLib/TTRangeSlider/TTRangeSlider.m; sourceTree = "<group>"; };
+		3FBCE1F65AAA10E794F2231A96C2ECC9 /* TXLimitedTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXLimitedTextView.h; path = FIPTools/Classes/ThirdLib/InputKit/TXLimitedTextView.h; sourceTree = "<group>"; };
+		40F4E92BC3FF443AF6BC022C979B6DE0 /* NSObject+LSDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+LSDefaults.m"; path = "FIPTools/Classes/Category/NSObject+LSDefaults.m"; sourceTree = "<group>"; };
+		43FE70F51954A2EC07BAF76BD988F363 /* UIColor+FIPExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+FIPExtension.m"; path = "FIPTools/Classes/Category/UIColor+FIPExtension.m"; sourceTree = "<group>"; };
+		4416FBBE4C5F32EF392D8C3409B1CC5C /* WMScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMScrollView.m; path = FIPTools/Classes/ThirdLib/WMPageController/WMScrollView.m; sourceTree = "<group>"; };
 		4550EC06F77E7BFB48FA850C9450FC59 /* Pods-FIPTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FIPTools_Example-umbrella.h"; sourceTree = "<group>"; };
+		4668A321B89B5A7389CB2BFFF3E0B316 /* FIPTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FIPTools.modulemap; sourceTree = "<group>"; };
+		474F1FD0337629D689CD357743B4CA1E /* SpreadsheetView+Touches.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+Touches.h"; path = "FIPTools/Classes/ThirdLib/ExcelChart/SpreadsheetView+Touches.h"; sourceTree = "<group>"; };
+		478C85C0E254F9A53612019709D15267 /* NSTimer+Crash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+Crash.m"; path = "FIPTools/Classes/KMCrashProtector/NSTimer+Crash.m"; sourceTree = "<group>"; };
+		4ABDF3B41545A6618EADBE40C20484BF /* WMMenuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMMenuView.m; path = FIPTools/Classes/ThirdLib/WMPageController/WMMenuView.m; sourceTree = "<group>"; };
+		4AF4895F3B199ACCC33D58E575E2DA9C /* NSMutableDictionary+KMCrash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+KMCrash.m"; path = "FIPTools/Classes/KMCrashProtector/NSMutableDictionary+KMCrash.m"; sourceTree = "<group>"; };
+		4B588D173D642F85B035489F144F70FE /* SpreadsheetView+Touches.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+Touches.m"; path = "FIPTools/Classes/ThirdLib/ExcelChart/SpreadsheetView+Touches.m"; sourceTree = "<group>"; };
+		4C3D1F48901F64643343AB2EC0905C1D /* WMMenuItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMMenuItem.h; path = FIPTools/Classes/ThirdLib/WMPageController/WMMenuItem.h; sourceTree = "<group>"; };
+		4CFD5D38CF3F19736F67A0CE3848257E /* TXMatchManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TXMatchManager.m; path = FIPTools/Classes/ThirdLib/InputKit/TXMatchManager.m; sourceTree = "<group>"; };
+		4D4CF2E7B9B6A7CF2398E30BA62DA835 /* NSString+MD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5.h"; path = "FIPTools/Classes/ThirdLib/MD5/NSString+MD5.h"; sourceTree = "<group>"; };
 		4DE6249C7F08C5DD23F813348A111380 /* Pods-FIPTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FIPTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4EE896EA91E6A01CE7244A9B8602BF2D /* Pods-FIPTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FIPTools_Example-dummy.m"; sourceTree = "<group>"; };
-		6883DD2F1646A71E0FEDB23546683B26 /* FIPTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FIPTools-Info.plist"; sourceTree = "<group>"; };
+		4F6BD39E6684CF43AECE37DA1A2F499F /* ZMJCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZMJCell.m; path = FIPTools/Classes/ThirdLib/ExcelChart/ZMJCell.m; sourceTree = "<group>"; };
+		5068276CDF11A1A21AB9CC3B1A86388F /* NSObject+KVOCrash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+KVOCrash.h"; path = "FIPTools/Classes/KMCrashProtector/NSObject+KVOCrash.h"; sourceTree = "<group>"; };
+		56B15E986D1682B1F96916BAFC5D5189 /* SpreadsheetView+Layout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+Layout.m"; path = "FIPTools/Classes/ThirdLib/ExcelChart/SpreadsheetView+Layout.m"; sourceTree = "<group>"; };
+		56C0F4F32A9B518E5AE11CA4E6C78B40 /* SpreadsheetView+UIViewHierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+UIViewHierarchy.m"; path = "FIPTools/Classes/ThirdLib/ExcelChart/SpreadsheetView+UIViewHierarchy.m"; sourceTree = "<group>"; };
+		5738D87DE00C68AB8420C8FA0A50EF1F /* NSMutableString+KMCrash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableString+KMCrash.m"; path = "FIPTools/Classes/KMCrashProtector/NSMutableString+KMCrash.m"; sourceTree = "<group>"; };
+		57EB9DE867B134BB42C063151AA7FF84 /* FIPTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FIPTools-dummy.m"; sourceTree = "<group>"; };
+		57FE82E4D75F7DCBA2C4253D96BFD881 /* UIButton+FIPExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+FIPExtension.m"; path = "FIPTools/Classes/Category/UIButton+FIPExtension.m"; sourceTree = "<group>"; };
+		5818B2BEF729F7A1EDCCE71F6DFEC928 /* UIButton+FIPExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+FIPExtension.h"; path = "FIPTools/Classes/Category/UIButton+FIPExtension.h"; sourceTree = "<group>"; };
+		592D41B8A4D73D653DABE050B65F2749 /* UIApplication+Visible.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+Visible.m"; path = "FIPTools/Classes/Category/UIApplication+Visible.m"; sourceTree = "<group>"; };
+		5ED6FE387C6A06B5F112ED791E5A73D9 /* HMSegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HMSegmentedControl.m; path = FIPTools/Classes/ThirdLib/Segment/HMSegmentedControl.m; sourceTree = "<group>"; };
+		5F8FE571FD330505E901B2FCA912D3E2 /* SpreadsheetView+UIScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+UIScrollView.h"; path = "FIPTools/Classes/ThirdLib/ExcelChart/SpreadsheetView+UIScrollView.h"; sourceTree = "<group>"; };
+		5FAC933B6E460D5746C466532AD90174 /* KMCrashProtectorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KMCrashProtectorManager.m; path = FIPTools/Classes/KMCrashProtector/KMCrashProtectorManager.m; sourceTree = "<group>"; };
+		5FE87DECA06A852F27B626FC9C4042F4 /* NSArray+DeepCopy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+DeepCopy.m"; path = "FIPTools/Classes/Category/NSArray+DeepCopy.m"; sourceTree = "<group>"; };
+		60DEFB9C8FE178EA9263D148414D49DB /* KMCrashProtectorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KMCrashProtectorManager.h; path = FIPTools/Classes/KMCrashProtector/KMCrashProtectorManager.h; sourceTree = "<group>"; };
+		662BF209B087C4F0B84A515E1E82D32F /* WMMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMMenuView.h; path = FIPTools/Classes/ThirdLib/WMPageController/WMMenuView.h; sourceTree = "<group>"; };
+		66C879B24F080558D75BE60AF25AA7D1 /* PrintBeautifulLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PrintBeautifulLog.h; path = FIPTools/Classes/ThirdLib/PrintBeautifulLog/PrintBeautifulLog.h; sourceTree = "<group>"; };
+		6961D88CAE67C730A4700BB18ABE9905 /* WMProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMProgressView.h; path = FIPTools/Classes/ThirdLib/WMPageController/WMProgressView.h; sourceTree = "<group>"; };
+		6A5911282BE05F15F5C527076A924245 /* ReuseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReuseQueue.h; path = FIPTools/Classes/ThirdLib/ExcelChart/ReuseQueue.h; sourceTree = "<group>"; };
+		6AB0DD8B2BBE7776F01033556B645587 /* TXDynamicDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TXDynamicDelegate.m; path = FIPTools/Classes/ThirdLib/InputKit/TXDynamicDelegate.m; sourceTree = "<group>"; };
+		6BBA035EEB5AFA261BE9E8E441C745C5 /* NSArray+KMCrash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+KMCrash.m"; path = "FIPTools/Classes/KMCrashProtector/NSArray+KMCrash.m"; sourceTree = "<group>"; };
+		6D1FA37DA786C80965BB62E866C4FCF7 /* NSString+BHURLHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+BHURLHelper.h"; path = "FIPTools/Classes/Category/NSString+BHURLHelper.h"; sourceTree = "<group>"; };
+		70E5A7E2E42E08743366399F13C7490A /* UISegmentedControl+UIStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISegmentedControl+UIStyle.h"; path = "FIPTools/Classes/Category/UISegmentedControl+UIStyle.h"; sourceTree = "<group>"; };
+		71A562B2BCF4BA6599F1298586915B76 /* ZMJScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMJScrollView.h; path = FIPTools/Classes/ThirdLib/ExcelChart/ZMJScrollView.h; sourceTree = "<group>"; };
+		71AA823FD16CAA47B529D92B4A9C0A93 /* FIPTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FIPTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		725D41AE5ED4C031E72302E1DF4FFDF7 /* FIPTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FIPTools-prefix.pch"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		743B763032A4546AA9ADB59EDEF90B26 /* YLImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLImageView.h; path = FIPTools/Classes/ThirdLib/YLGIFImage/YLImageView.h; sourceTree = "<group>"; };
+		748F531A5A07B39DD50A34BEB167074C /* MSWeakTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSWeakTimer.m; path = FIPTools/Classes/ThirdLib/WeakTimer/MSWeakTimer.m; sourceTree = "<group>"; };
+		74AFF449E81D8C10BCE426A80AC564E0 /* TXDynamicDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXDynamicDelegate.h; path = FIPTools/Classes/ThirdLib/InputKit/TXDynamicDelegate.h; sourceTree = "<group>"; };
 		75D19B845A83B6C76B57906B507ED8E5 /* Pods-FIPTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FIPTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		761CB6F95D8DE366246FD309758B3768 /* YLGIFImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLGIFImage.m; path = FIPTools/Classes/ThirdLib/YLGIFImage/YLGIFImage.m; sourceTree = "<group>"; };
 		766D8B22178E9E4E0D53B06F7CFFD467 /* Pods-FIPTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FIPTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		76C479D69705C1FDC123EA3F9CE12E93 /* SpreadsheetView+CirclularScrolling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+CirclularScrolling.h"; path = "FIPTools/Classes/ThirdLib/ExcelChart/SpreadsheetView+CirclularScrolling.h"; sourceTree = "<group>"; };
+		7B4898D1656283A8F079F3888D7C0B51 /* YLGIFImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLGIFImage.h; path = FIPTools/Classes/ThirdLib/YLGIFImage/YLGIFImage.h; sourceTree = "<group>"; };
+		7BE1580DDD716F62591D496A8EC302CC /* UIImage+BSKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+BSKit.h"; path = "FIPTools/Classes/Category/UIImage+BSKit.h"; sourceTree = "<group>"; };
+		7C51975B246E4DBEE90070188814A4E8 /* SpreadsheetView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpreadsheetView.m; path = FIPTools/Classes/ThirdLib/ExcelChart/SpreadsheetView.m; sourceTree = "<group>"; };
 		7CF30698F816CF3B333251BD46D5C330 /* Pods-FIPTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FIPTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7D25B503DFEA614B62F8296A5A91869F /* RSA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSA.h; path = FIPTools/Classes/ThirdLib/RSA/RSA.h; sourceTree = "<group>"; };
+		7EA3028B9F5E2226C681553539882BF5 /* SpreadsheetViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpreadsheetViewDelegate.h; path = FIPTools/Classes/ThirdLib/ExcelChart/SpreadsheetViewDelegate.h; sourceTree = "<group>"; };
 		8074ADA21D623B0D804B61AB66E1BB9C /* Pods-FIPTools_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FIPTools_Example-Info.plist"; sourceTree = "<group>"; };
+		84421FBC9F3289CB04BA058EB2CD83C3 /* GYRollingNoticeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GYRollingNoticeView.m; path = FIPTools/Classes/ThirdLib/GYRollingNoticeView/GYRollingNoticeView.m; sourceTree = "<group>"; };
+		8483672607B8018D04D539918B9BE30F /* NSDictionary+WBGAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+WBGAdd.h"; path = "FIPTools/Classes/ThirdLib/ExcelChart/NSDictionary+WBGAdd.h"; sourceTree = "<group>"; };
+		848AFF425BB34637AB521F5FD7B5D5A5 /* NSIndexPath+column.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSIndexPath+column.h"; path = "FIPTools/Classes/ThirdLib/ExcelChart/NSIndexPath+column.h"; sourceTree = "<group>"; };
+		851688CB97555507365E4E8201BA0410 /* NSArray+EmptySafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+EmptySafe.m"; path = "FIPTools/Classes/Category/NSArray+EmptySafe.m"; sourceTree = "<group>"; };
+		85D9B868F6E853C1DBB961AA2B56E41B /* Gridlines.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Gridlines.m; path = FIPTools/Classes/ThirdLib/ExcelChart/Gridlines.m; sourceTree = "<group>"; };
+		877D8B591CED0A50D06EC7EEBFF715E9 /* PrintBeautifulLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PrintBeautifulLog.m; path = FIPTools/Classes/ThirdLib/PrintBeautifulLog/PrintBeautifulLog.m; sourceTree = "<group>"; };
+		8836B20D987E964C19A2E9E380F4138E /* NSDictionary+KMCrash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+KMCrash.h"; path = "FIPTools/Classes/KMCrashProtector/NSDictionary+KMCrash.h"; sourceTree = "<group>"; };
 		88F328B2B0BECA57D67FF7187B753AF0 /* Pods-FIPTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FIPTools_Example.modulemap"; sourceTree = "<group>"; };
+		899420CC7CBBE6ED146DDE6AD37D6368 /* ReuseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReuseQueue.m; path = FIPTools/Classes/ThirdLib/ExcelChart/ReuseQueue.m; sourceTree = "<group>"; };
+		8CAF384F361164A4159E0147C51B2B4E /* Gridlines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Gridlines.h; path = FIPTools/Classes/ThirdLib/ExcelChart/Gridlines.h; sourceTree = "<group>"; };
+		8D709020D0E398B60FB90BEF84D96B93 /* HMSegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMSegmentedControl.h; path = FIPTools/Classes/ThirdLib/Segment/HMSegmentedControl.h; sourceTree = "<group>"; };
+		8E6519EB6A396F9A8AC5E22FB1918D23 /* TXMatchManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXMatchManager.h; path = FIPTools/Classes/ThirdLib/InputKit/TXMatchManager.h; sourceTree = "<group>"; };
+		8E7D2607672D11A048C2D4E8F3A5A870 /* RSA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSA.m; path = FIPTools/Classes/ThirdLib/RSA/RSA.m; sourceTree = "<group>"; };
 		8EB8630B641FAE97506EFC9D859F6CD9 /* Pods-FIPTools_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FIPTools_Tests-Info.plist"; sourceTree = "<group>"; };
+		920CCFAF83F327E4EF3907AA682DF4B5 /* Borders.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Borders.m; path = FIPTools/Classes/ThirdLib/ExcelChart/Borders.m; sourceTree = "<group>"; };
+		931B21F725BB508B2CDB2D5BEDB133C5 /* NSNumber+Operation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+Operation.h"; path = "FIPTools/Classes/Category/NSNumber+Operation.h"; sourceTree = "<group>"; };
+		9337146E92BB4190A8237A5BFFAD35BC /* KMCrashLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KMCrashLog.m; path = FIPTools/Classes/KMCrashProtector/KMCrashLog.m; sourceTree = "<group>"; };
+		944FC9BCFE14EE4F83E374B2915D28F8 /* NSString+KMCrash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+KMCrash.h"; path = "FIPTools/Classes/KMCrashProtector/NSString+KMCrash.h"; sourceTree = "<group>"; };
+		9634A0C6C5336FF8563E3B84767AB701 /* SpreadsheetViewDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpreadsheetViewDataSource.h; path = FIPTools/Classes/ThirdLib/ExcelChart/SpreadsheetViewDataSource.h; sourceTree = "<group>"; };
+		97EE655C5B68C09B0921185207875DBA /* SpreadsheetView+Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+Layout.h"; path = "FIPTools/Classes/ThirdLib/ExcelChart/SpreadsheetView+Layout.h"; sourceTree = "<group>"; };
+		992DCE8F81C9B876C176B16B91633C34 /* NSDate+DLExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+DLExtension.h"; path = "FIPTools/Classes/Category/NSDate+DLExtension.h"; sourceTree = "<group>"; };
+		9A4DF4174214138B194B8742CD8E89D8 /* NSObject+NSNotificationCrash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+NSNotificationCrash.m"; path = "FIPTools/Classes/KMCrashProtector/NSObject+NSNotificationCrash.m"; sourceTree = "<group>"; };
+		9B4AAE7221F47225D8DB417A5412C4F6 /* NSArray+BinarySearch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+BinarySearch.m"; path = "FIPTools/Classes/ThirdLib/ExcelChart/NSArray+BinarySearch.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A21FC4972AE0968353D0EFE1C69ADC9E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = FIPTools/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		AD2A29E064198D0FEBE53EB16318A004 /* FIPTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FIPTools-umbrella.h"; sourceTree = "<group>"; };
+		9DC8CFE137141EA8C47710BAA8B6AA0F /* TXLimitedTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TXLimitedTextView.m; path = FIPTools/Classes/ThirdLib/InputKit/TXLimitedTextView.m; sourceTree = "<group>"; };
+		A0E8068294E9D7A28914A052BD093898 /* NSObject+KVOCrash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+KVOCrash.m"; path = "FIPTools/Classes/KMCrashProtector/NSObject+KVOCrash.m"; sourceTree = "<group>"; };
+		A118A13E03A845ED1E97D19D763ADC92 /* WMMenuItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMMenuItem.m; path = FIPTools/Classes/ThirdLib/WMPageController/WMMenuItem.m; sourceTree = "<group>"; };
+		A121CA5FC6A0791008F6AFA1690B0A31 /* CircualrScrolling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CircualrScrolling.h; path = FIPTools/Classes/ThirdLib/ExcelChart/CircualrScrolling.h; sourceTree = "<group>"; };
+		A1A7E1EBAAFD7B28B858370F6F2E081B /* Borders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Borders.h; path = FIPTools/Classes/ThirdLib/ExcelChart/Borders.h; sourceTree = "<group>"; };
+		A67C259ED7EF8F8E52C6E29336C1DB8D /* NSNumber+Operation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+Operation.m"; path = "FIPTools/Classes/Category/NSNumber+Operation.m"; sourceTree = "<group>"; };
+		A75211474085FCE807B7016EAE1B477E /* MSWeakTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSWeakTimer.h; path = FIPTools/Classes/ThirdLib/WeakTimer/MSWeakTimer.h; sourceTree = "<group>"; };
+		A7CE69C75B38065C0F6F4E1C0B5592D6 /* Aspects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Aspects.m; path = FIPTools/Classes/ThirdLib/Aspects/Aspects.m; sourceTree = "<group>"; };
+		A8101E49E18254A2DCCCC8151CAC8846 /* NSMutableAttributedString+VExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableAttributedString+VExtension.h"; path = "FIPTools/Classes/Category/NSMutableAttributedString+VExtension.h"; sourceTree = "<group>"; };
+		AC546D212AB5999FF543991E4FF6AA29 /* NSMutableArray+KMCrash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+KMCrash.m"; path = "FIPTools/Classes/KMCrashProtector/NSMutableArray+KMCrash.m"; sourceTree = "<group>"; };
+		ACD9DF57316A993BC086D516105AB058 /* NSDictionary+KMCrash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+KMCrash.m"; path = "FIPTools/Classes/KMCrashProtector/NSDictionary+KMCrash.m"; sourceTree = "<group>"; };
 		AEE46773034E7DA2F820BD05545A1095 /* Pods-FIPTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FIPTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF78E813E85484E010CD387DA2E5D750 /* NSPointerArray+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPointerArray+Extensions.h"; path = "FIPTools/Classes/Category/NSPointerArray+Extensions.h"; sourceTree = "<group>"; };
+		AF7AC1999C3D65945404B0A3284DCF2A /* CircualrScrolling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CircualrScrolling.m; path = FIPTools/Classes/ThirdLib/ExcelChart/CircualrScrolling.m; sourceTree = "<group>"; };
+		B05339D8F9F1E1B372F42FCB853B3171 /* EncodeControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EncodeControl.m; path = FIPTools/Classes/ThirdLib/Rc4Base64/EncodeControl.m; sourceTree = "<group>"; };
+		B0CF05D662D116F434A734957B8D349B /* SpreadsheetView+UISnapshotting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SpreadsheetView+UISnapshotting.m"; path = "FIPTools/Classes/ThirdLib/ExcelChart/SpreadsheetView+UISnapshotting.m"; sourceTree = "<group>"; };
+		B1643D579B62FC518A987D620F7E508D /* FIPTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FIPTools.debug.xcconfig; sourceTree = "<group>"; };
+		B358CF2C5C3A93DC9D8D3C8E15A7A2C8 /* NSString+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Extensions.h"; path = "FIPTools/Classes/Category/NSString+Extensions.h"; sourceTree = "<group>"; };
+		B489000493462B89A14EFDA292FF4496 /* NSArray+BinarySearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+BinarySearch.h"; path = "FIPTools/Classes/ThirdLib/ExcelChart/NSArray+BinarySearch.h"; sourceTree = "<group>"; };
 		B4A22CFE5D73BF3D13D16F4D6E1CAEA8 /* Pods-FIPTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FIPTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B8369BEF672CBD60AFEBF7B8A3004E16 /* FIPTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FIPTools.modulemap; sourceTree = "<group>"; };
+		B4AB99D0843627313EFA23C3B92A450E /* NSAttributedString+KMCrash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+KMCrash.m"; path = "FIPTools/Classes/KMCrashProtector/NSAttributedString+KMCrash.m"; sourceTree = "<group>"; };
+		B6399C84FD4B721DB26C324662496F99 /* UISegmentedControl+UIStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISegmentedControl+UIStyle.m"; path = "FIPTools/Classes/Category/UISegmentedControl+UIStyle.m"; sourceTree = "<group>"; };
+		B9E2CC20748AF28C55CB72FF01EE3DDB /* NSMutableAttributedString+VExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableAttributedString+VExtension.m"; path = "FIPTools/Classes/Category/NSMutableAttributedString+VExtension.m"; sourceTree = "<group>"; };
+		BAD7BE88A8CF17F9F94EAECFEAC5CEEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BAD959392CB4B3D4C31C0B7E4420DE64 /* NSTimer+Crash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+Crash.h"; path = "FIPTools/Classes/KMCrashProtector/NSTimer+Crash.h"; sourceTree = "<group>"; };
+		BCA09951947680974AA6014C6C5B8640 /* SpreadsheetView+UIViewHierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+UIViewHierarchy.h"; path = "FIPTools/Classes/ThirdLib/ExcelChart/SpreadsheetView+UIViewHierarchy.h"; sourceTree = "<group>"; };
 		BD69C702DBBF52E44F4BED2F7097B157 /* Pods-FIPTools_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FIPTools_Example"; path = Pods_FIPTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAC8A192E979AF0981DADCD5E5DE5469 /* FIPTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FIPTools-dummy.m"; sourceTree = "<group>"; };
-		DBDC21639E760C678E971FB953657F50 /* FIPTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FIPTools.release.xcconfig; sourceTree = "<group>"; };
+		C0E9CC77AF7B14212A75FEEFDBD5D707 /* Location.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Location.m; path = FIPTools/Classes/ThirdLib/ExcelChart/Location.m; sourceTree = "<group>"; };
+		C22C69EED51F18DE2CF2984857C56947 /* WMPageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMPageController.m; path = FIPTools/Classes/ThirdLib/WMPageController/WMPageController.m; sourceTree = "<group>"; };
+		C2DD18F27DE42BBE5F918F737E8B9BDF /* GYRollingNoticeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYRollingNoticeView.h; path = FIPTools/Classes/ThirdLib/GYRollingNoticeView/GYRollingNoticeView.h; sourceTree = "<group>"; };
+		C441D33FE9C19DACE3D0D0305833EF50 /* SpreadsheetView+UIScrollViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+UIScrollViewDelegate.h"; path = "FIPTools/Classes/ThirdLib/ExcelChart/SpreadsheetView+UIScrollViewDelegate.h"; sourceTree = "<group>"; };
+		C4C43817BAEA75CD86B8EA97FDAA090C /* NSString+BHURLHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+BHURLHelper.m"; path = "FIPTools/Classes/Category/NSString+BHURLHelper.m"; sourceTree = "<group>"; };
+		C91E37C0B303C1CECB89D1C186319215 /* rc4Encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc4Encode.h; path = FIPTools/Classes/ThirdLib/Rc4Base64/rc4Encode.h; sourceTree = "<group>"; };
+		CB62A34F2B467403A7CFE992949DE58E /* UILabel+VExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+VExtension.h"; path = "FIPTools/Classes/Category/UILabel+VExtension.h"; sourceTree = "<group>"; };
+		CC1B3A9E7B6F5C845F7C5C5993644854 /* YLGIFImageInSwiftProjectDemo-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YLGIFImageInSwiftProjectDemo-Bridging-Header.h"; path = "FIPTools/Classes/ThirdLib/YLGIFImage/YLGIFImageInSwiftProjectDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		CC500934325FC8882E20A09B336E405E /* KMCrashLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KMCrashLog.h; path = FIPTools/Classes/KMCrashProtector/KMCrashLog.h; sourceTree = "<group>"; };
+		CD813134B713F26AD3446F49031C5357 /* WMScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMScrollView.h; path = FIPTools/Classes/ThirdLib/WMPageController/WMScrollView.h; sourceTree = "<group>"; };
+		CE6FA958DC101715B62A7033B5943106 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D47EDF81C66DFB2EDABE85379F16DA9E /* TXMatchConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXMatchConst.h; path = FIPTools/Classes/ThirdLib/InputKit/TXMatchConst.h; sourceTree = "<group>"; };
+		D581D3146A29994BED6BF3C27BC4759C /* TTRangeSliderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTRangeSliderDelegate.h; path = FIPTools/Classes/ThirdLib/TTRangeSlider/TTRangeSliderDelegate.h; sourceTree = "<group>"; };
+		D878CF65097808F6AABE31D12A5CCA5D /* FIPTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FIPTools.release.xcconfig; sourceTree = "<group>"; };
+		D8A56B1B27F1186F82FE33DE9A5FD4BC /* NSMutableAttributedString+KMCrash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableAttributedString+KMCrash.m"; path = "FIPTools/Classes/KMCrashProtector/NSMutableAttributedString+KMCrash.m"; sourceTree = "<group>"; };
+		D8F7AF28D061F6C8CF8E991E2B11CE9B /* NSObject+SelectorCrash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SelectorCrash.m"; path = "FIPTools/Classes/KMCrashProtector/NSObject+SelectorCrash.m"; sourceTree = "<group>"; };
+		D9161CCDEAA60B071F9805C1072332E7 /* NSAttributedString+KMCrash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+KMCrash.h"; path = "FIPTools/Classes/KMCrashProtector/NSAttributedString+KMCrash.h"; sourceTree = "<group>"; };
+		D966A7B415B2BF59939C2F826849208F /* KLCPopup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLCPopup.h; path = FIPTools/Classes/ThirdLib/KLCPopup/KLCPopup.h; sourceTree = "<group>"; };
+		DFF8970D5023BBAE184ACC91C9AA4AAA /* UIApplication+Visible.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+Visible.h"; path = "FIPTools/Classes/Category/UIApplication+Visible.h"; sourceTree = "<group>"; };
 		E10C125F581EDB12D33653DF62275AEA /* Pods-FIPTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FIPTools_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E5DD3A7D158CEE6BE2A6DAFCCFCC71BF /* SpreadsheetView+UISnapshotting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetView+UISnapshotting.h"; path = "FIPTools/Classes/ThirdLib/ExcelChart/SpreadsheetView+UISnapshotting.h"; sourceTree = "<group>"; };
+		E6E0494A4DCCA09FA9DF5DC31A8F9974 /* Location.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Location.h; path = FIPTools/Classes/ThirdLib/ExcelChart/Location.h; sourceTree = "<group>"; };
+		E830BEB01A6C28CAC8FF38002555345A /* UIControl+Click.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+Click.m"; path = "FIPTools/Classes/KMCrashProtector/UIControl+Click.m"; sourceTree = "<group>"; };
+		E9F817EE385B660FBDB5B5E29CAA8720 /* FIPTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FIPTools-Info.plist"; sourceTree = "<group>"; };
+		EBB1D8D0883DB6AD01094A6F802FFA71 /* NSArray+DeepCopy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+DeepCopy.h"; path = "FIPTools/Classes/Category/NSArray+DeepCopy.h"; sourceTree = "<group>"; };
+		EBD303F5958EE26F31FF87B5979BD3A0 /* GYNoticeViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GYNoticeViewCell.m; path = FIPTools/Classes/ThirdLib/GYRollingNoticeView/GYNoticeViewCell.m; sourceTree = "<group>"; };
+		ED5D435165D8BBA7B98FA4DF3C361D53 /* ZMJScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZMJScrollView.m; path = FIPTools/Classes/ThirdLib/ExcelChart/ZMJScrollView.m; sourceTree = "<group>"; };
+		F0B80C70AC63DCD0C835B161EAB4ED76 /* Define.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Define.h; path = FIPTools/Classes/ThirdLib/ExcelChart/Define.h; sourceTree = "<group>"; };
 		F25A8E8AE4F96959131C91041B930A6C /* Pods-FIPTools_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FIPTools_Tests"; path = Pods_FIPTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5254490703574C3A073CEC8219D7263 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F3E811CD9A06C28695DD65D9266A6AFF /* ZMJCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMJCell.h; path = FIPTools/Classes/ThirdLib/ExcelChart/ZMJCell.h; sourceTree = "<group>"; };
+		F5ECFD22E391BE11AE3344886C35F0EF /* NSPointerArray+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPointerArray+Extensions.m"; path = "FIPTools/Classes/Category/NSPointerArray+Extensions.m"; sourceTree = "<group>"; };
+		F67B61E70F74310C70112CE1AC5DD4A1 /* NSObject+KMSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+KMSwizzle.h"; path = "FIPTools/Classes/KMCrashProtector/NSObject+KMSwizzle.h"; sourceTree = "<group>"; };
 		F89F7ED41A6C7F0D2CA82C112F80668D /* FIPTools */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FIPTools; path = FIPTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2C57FD5EAE4B0C5258C2DD89A11F8E /* NSObject+SelectorCrash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+SelectorCrash.h"; path = "FIPTools/Classes/KMCrashProtector/NSObject+SelectorCrash.h"; sourceTree = "<group>"; };
 		FABF1AC589AF34E1A0A9B6095A43702E /* Pods-FIPTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FIPTools_Tests.modulemap"; sourceTree = "<group>"; };
-		FC8B7322D929905A93F1799853B89DEA /* FIPTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FIPTools-prefix.pch"; sourceTree = "<group>"; };
+		FBB01297E9F5F72CD877BEF5FD2D027D /* NSArray+KMCrash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+KMCrash.h"; path = "FIPTools/Classes/KMCrashProtector/NSArray+KMCrash.h"; sourceTree = "<group>"; };
+		FDB531C0C74218A7716005AFAF6911F8 /* NSMutableString+KMCrash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableString+KMCrash.h"; path = "FIPTools/Classes/KMCrashProtector/NSMutableString+KMCrash.h"; sourceTree = "<group>"; };
+		FE844EC67A21C8C94B09A51293E78F3A /* NSObject+NSNotificationCrash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+NSNotificationCrash.h"; path = "FIPTools/Classes/KMCrashProtector/NSObject+NSNotificationCrash.h"; sourceTree = "<group>"; };
+		FFF6D4FBFB01BB528D3E87F8A95C201A /* NullSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NullSafe.m; path = FIPTools/Classes/ThirdLib/NullSafe/NullSafe.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,11 +429,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDA5B4750A08015D284D4C321B5980B8 /* Frameworks */ = {
+		F7116C674F89CF65C3CF1E5B27C795CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3125A502B37C450B525A949B25C4E9D /* Foundation.framework in Frameworks */,
+				D4A960A1665AB4A1D103B66D358DAD9B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,15 +456,71 @@
 			path = "Target Support Files/Pods-FIPTools_Tests";
 			sourceTree = "<group>";
 		};
-		238AC08935C38D66E3D40DC6B2C3B4B2 /* FIPTools */ = {
+		1BB3E2A8C869D7E3C141DEB7E3060584 /* Rc4Base64 */ = {
 			isa = PBXGroup;
 			children = (
-				A21FC4972AE0968353D0EFE1C69ADC9E /* ReplaceMe.m */,
-				770573B2B75BAD2AD3AE4AA5341794C1 /* Pod */,
-				F1B77481B52DD98F6303E4A2E658DE46 /* Support Files */,
+				2050B0F0F4780147853CD1EF4EC5807B /* base64.h */,
+				0A8E42D1F51C0E70106D872F148FB62F /* EncodeControl.h */,
+				B05339D8F9F1E1B372F42FCB853B3171 /* EncodeControl.m */,
+				C91E37C0B303C1CECB89D1C186319215 /* rc4Encode.h */,
 			);
-			name = FIPTools;
-			path = ../..;
+			name = Rc4Base64;
+			sourceTree = "<group>";
+		};
+		279D9A3C469D317A16056A8ED19567BE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4668A321B89B5A7389CB2BFFF3E0B316 /* FIPTools.modulemap */,
+				57EB9DE867B134BB42C063151AA7FF84 /* FIPTools-dummy.m */,
+				E9F817EE385B660FBDB5B5E29CAA8720 /* FIPTools-Info.plist */,
+				725D41AE5ED4C031E72302E1DF4FFDF7 /* FIPTools-prefix.pch */,
+				1A25DF1BCE1A4C193152008058A019E6 /* FIPTools-umbrella.h */,
+				B1643D579B62FC518A987D620F7E508D /* FIPTools.debug.xcconfig */,
+				D878CF65097808F6AABE31D12A5CCA5D /* FIPTools.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FIPTools";
+			sourceTree = "<group>";
+		};
+		2834DBA1743CD6835DDC769BF643CA80 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EBB1D8D0883DB6AD01094A6F802FFA71 /* NSArray+DeepCopy.h */,
+				5FE87DECA06A852F27B626FC9C4042F4 /* NSArray+DeepCopy.m */,
+				141A19B36AA536EFC5357D5408E06860 /* NSArray+EmptySafe.h */,
+				851688CB97555507365E4E8201BA0410 /* NSArray+EmptySafe.m */,
+				992DCE8F81C9B876C176B16B91633C34 /* NSDate+DLExtension.h */,
+				156313E2B1543B0454DBE3484AC7A8B0 /* NSDate+DLExtension.m */,
+				A8101E49E18254A2DCCCC8151CAC8846 /* NSMutableAttributedString+VExtension.h */,
+				B9E2CC20748AF28C55CB72FF01EE3DDB /* NSMutableAttributedString+VExtension.m */,
+				931B21F725BB508B2CDB2D5BEDB133C5 /* NSNumber+Operation.h */,
+				A67C259ED7EF8F8E52C6E29336C1DB8D /* NSNumber+Operation.m */,
+				2E57A9FB2370A3A331662BA58AB039D1 /* NSObject+LSDefaults.h */,
+				40F4E92BC3FF443AF6BC022C979B6DE0 /* NSObject+LSDefaults.m */,
+				AF78E813E85484E010CD387DA2E5D750 /* NSPointerArray+Extensions.h */,
+				F5ECFD22E391BE11AE3344886C35F0EF /* NSPointerArray+Extensions.m */,
+				6D1FA37DA786C80965BB62E866C4FCF7 /* NSString+BHURLHelper.h */,
+				C4C43817BAEA75CD86B8EA97FDAA090C /* NSString+BHURLHelper.m */,
+				218BDBCECE343C3DE9B037068B939E83 /* NSString+Calculate.h */,
+				03872972E035E91BD4C1A73A9E7B28FA /* NSString+Calculate.m */,
+				B358CF2C5C3A93DC9D8D3C8E15A7A2C8 /* NSString+Extensions.h */,
+				216734F7DE4B63315EDB9A290065DB55 /* NSString+Extensions.m */,
+				330DE30CF4C456379235DC45B3D595AC /* NSString+VExtension.h */,
+				219424F93427CA3AF9BE867B17AC70B9 /* NSString+VExtension.m */,
+				DFF8970D5023BBAE184ACC91C9AA4AAA /* UIApplication+Visible.h */,
+				592D41B8A4D73D653DABE050B65F2749 /* UIApplication+Visible.m */,
+				5818B2BEF729F7A1EDCCE71F6DFEC928 /* UIButton+FIPExtension.h */,
+				57FE82E4D75F7DCBA2C4253D96BFD881 /* UIButton+FIPExtension.m */,
+				0EF2F20EF8B68BC01C4070A3A96AE37F /* UIColor+FIPExtension.h */,
+				43FE70F51954A2EC07BAF76BD988F363 /* UIColor+FIPExtension.m */,
+				7BE1580DDD716F62591D496A8EC302CC /* UIImage+BSKit.h */,
+				2F2E4D03F5725D07221FF94766AC224F /* UIImage+BSKit.m */,
+				CB62A34F2B467403A7CFE992949DE58E /* UILabel+VExtension.h */,
+				1CB80672386F60C08D57DF1DF7EB726D /* UILabel+VExtension.m */,
+				70E5A7E2E42E08743366399F13C7490A /* UISegmentedControl+UIStyle.h */,
+				B6399C84FD4B721DB26C324662496F99 /* UISegmentedControl+UIStyle.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 		2B9445CABE85C91D0688E186A85DCB47 /* Products */ = {
@@ -137,6 +533,115 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		3C82B8EDA89CD73F42672CD8BFBE0C52 /* FIPTools */ = {
+			isa = PBXGroup;
+			children = (
+				07402A599DF212F6F8B4DED2360762AF /* FIPTools.h */,
+				2834DBA1743CD6835DDC769BF643CA80 /* Category */,
+				BB6D7F8D370CD4C00AE6D1CD84063994 /* KMCrashProtector */,
+				F862927125C286F9AF9EEC811F257453 /* Pod */,
+				279D9A3C469D317A16056A8ED19567BE /* Support Files */,
+				F6F64A5478DF26A3CC813DBBD576F4CB /* ThirdLib */,
+			);
+			name = FIPTools;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4B21B9587959004DE809DB4772295DFA /* ExcelChart */ = {
+			isa = PBXGroup;
+			children = (
+				3C3857C5661F78833D9199359A7E1114 /* Address.h */,
+				2626DD12F4F94D52E1FFDCF85C0A5AE3 /* Address.m */,
+				A1A7E1EBAAFD7B28B858370F6F2E081B /* Borders.h */,
+				920CCFAF83F327E4EF3907AA682DF4B5 /* Borders.m */,
+				A121CA5FC6A0791008F6AFA1690B0A31 /* CircualrScrolling.h */,
+				AF7AC1999C3D65945404B0A3284DCF2A /* CircualrScrolling.m */,
+				F0B80C70AC63DCD0C835B161EAB4ED76 /* Define.h */,
+				8CAF384F361164A4159E0147C51B2B4E /* Gridlines.h */,
+				85D9B868F6E853C1DBB961AA2B56E41B /* Gridlines.m */,
+				E6E0494A4DCCA09FA9DF5DC31A8F9974 /* Location.h */,
+				C0E9CC77AF7B14212A75FEEFDBD5D707 /* Location.m */,
+				B489000493462B89A14EFDA292FF4496 /* NSArray+BinarySearch.h */,
+				9B4AAE7221F47225D8DB417A5412C4F6 /* NSArray+BinarySearch.m */,
+				19CD785A6410067CA58E1AF24243C612 /* NSArray+WBGAddition.h */,
+				3BF54C503DFAD310CECCC9E73188E39A /* NSArray+WBGAddition.m */,
+				8483672607B8018D04D539918B9BE30F /* NSDictionary+WBGAdd.h */,
+				28EA3CB479530E59B41856E87FFB39B1 /* NSDictionary+WBGAdd.m */,
+				848AFF425BB34637AB521F5FD7B5D5A5 /* NSIndexPath+column.h */,
+				1017DF123C240942E90E36EA922C67B3 /* NSIndexPath+column.m */,
+				6A5911282BE05F15F5C527076A924245 /* ReuseQueue.h */,
+				899420CC7CBBE6ED146DDE6AD37D6368 /* ReuseQueue.m */,
+				35A8BA0EC96F1C1CE62DB93F55E7FE55 /* SpreadsheetView.h */,
+				7C51975B246E4DBEE90070188814A4E8 /* SpreadsheetView.m */,
+				76C479D69705C1FDC123EA3F9CE12E93 /* SpreadsheetView+CirclularScrolling.h */,
+				28826A075C09CB2DAD4FCA06C24AAF8F /* SpreadsheetView+CirclularScrolling.m */,
+				97EE655C5B68C09B0921185207875DBA /* SpreadsheetView+Layout.h */,
+				56B15E986D1682B1F96916BAFC5D5189 /* SpreadsheetView+Layout.m */,
+				474F1FD0337629D689CD357743B4CA1E /* SpreadsheetView+Touches.h */,
+				4B588D173D642F85B035489F144F70FE /* SpreadsheetView+Touches.m */,
+				5F8FE571FD330505E901B2FCA912D3E2 /* SpreadsheetView+UIScrollView.h */,
+				0CF1201FE4692FC88479A0E6FAC1FA93 /* SpreadsheetView+UIScrollView.m */,
+				C441D33FE9C19DACE3D0D0305833EF50 /* SpreadsheetView+UIScrollViewDelegate.h */,
+				290B3355D8D3257C499A3426A557D41D /* SpreadsheetView+UIScrollViewDelegate.m */,
+				E5DD3A7D158CEE6BE2A6DAFCCFCC71BF /* SpreadsheetView+UISnapshotting.h */,
+				B0CF05D662D116F434A734957B8D349B /* SpreadsheetView+UISnapshotting.m */,
+				BCA09951947680974AA6014C6C5B8640 /* SpreadsheetView+UIViewHierarchy.h */,
+				56C0F4F32A9B518E5AE11CA4E6C78B40 /* SpreadsheetView+UIViewHierarchy.m */,
+				9634A0C6C5336FF8563E3B84767AB701 /* SpreadsheetViewDataSource.h */,
+				7EA3028B9F5E2226C681553539882BF5 /* SpreadsheetViewDelegate.h */,
+				F3E811CD9A06C28695DD65D9266A6AFF /* ZMJCell.h */,
+				4F6BD39E6684CF43AECE37DA1A2F499F /* ZMJCell.m */,
+				0BAF848675041453D33A76006AEFD992 /* ZMJCellRange.h */,
+				33A9C525D19BDBA6C3875BAD7006AFCE /* ZMJCellRange.m */,
+				129EB009751EC7C6E8884049340BC488 /* ZMJGanttChart.h */,
+				275ED0C0400D43352B559ED48E3ED547 /* ZMJLayoutEngine.h */,
+				28F5258B8A0E2FF4692B07FA31E867D9 /* ZMJLayoutEngine.m */,
+				71A562B2BCF4BA6599F1298586915B76 /* ZMJScrollView.h */,
+				ED5D435165D8BBA7B98FA4DF3C361D53 /* ZMJScrollView.m */,
+			);
+			name = ExcelChart;
+			sourceTree = "<group>";
+		};
+		4FB795B6D614CBEB8D1E4852FBEBB61D /* RSA */ = {
+			isa = PBXGroup;
+			children = (
+				7D25B503DFEA614B62F8296A5A91869F /* RSA.h */,
+				8E7D2607672D11A048C2D4E8F3A5A870 /* RSA.m */,
+			);
+			name = RSA;
+			sourceTree = "<group>";
+		};
+		4FDF430FB99CB7FD92A56B76FAB8F226 /* WMPageController */ = {
+			isa = PBXGroup;
+			children = (
+				3579B39455B58DE76397082567489274 /* UIViewController+WMPageController.h */,
+				06BD8B0E1E5AE2877931DB225813DE45 /* UIViewController+WMPageController.m */,
+				4C3D1F48901F64643343AB2EC0905C1D /* WMMenuItem.h */,
+				A118A13E03A845ED1E97D19D763ADC92 /* WMMenuItem.m */,
+				662BF209B087C4F0B84A515E1E82D32F /* WMMenuView.h */,
+				4ABDF3B41545A6618EADBE40C20484BF /* WMMenuView.m */,
+				072E4B91A1A73304DE8C48736ED635A4 /* WMPageController.h */,
+				C22C69EED51F18DE2CF2984857C56947 /* WMPageController.m */,
+				6961D88CAE67C730A4700BB18ABE9905 /* WMProgressView.h */,
+				32FE77ACE2C1D144627B84B0C2A26211 /* WMProgressView.m */,
+				CD813134B713F26AD3446F49031C5357 /* WMScrollView.h */,
+				4416FBBE4C5F32EF392D8C3409B1CC5C /* WMScrollView.m */,
+			);
+			name = WMPageController;
+			sourceTree = "<group>";
+		};
+		574F0E2DC0DB4E845E33E91AE0152C31 /* YLGIFImage */ = {
+			isa = PBXGroup;
+			children = (
+				7B4898D1656283A8F079F3888D7C0B51 /* YLGIFImage.h */,
+				761CB6F95D8DE366246FD309758B3768 /* YLGIFImage.m */,
+				CC1B3A9E7B6F5C845F7C5C5993644854 /* YLGIFImageInSwiftProjectDemo-Bridging-Header.h */,
+				743B763032A4546AA9ADB59EDEF90B26 /* YLImageView.h */,
+				02EBDB39D1C8BB28009E49EB1DFAF30C /* YLImageView.m */,
+			);
+			name = YLGIFImage;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,14 +650,50 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		770573B2B75BAD2AD3AE4AA5341794C1 /* Pod */ = {
+		640D3AE3D4D9E3A003329E48EE3112E7 /* WeakTimer */ = {
 			isa = PBXGroup;
 			children = (
-				0573F4F5C5FAF300A42669D881DFBD56 /* FIPTools.podspec */,
-				F5254490703574C3A073CEC8219D7263 /* LICENSE */,
-				323EBFF6C9BDB9D48D05B7B831A56C64 /* README.md */,
+				A75211474085FCE807B7016EAE1B477E /* MSWeakTimer.h */,
+				748F531A5A07B39DD50A34BEB167074C /* MSWeakTimer.m */,
 			);
-			name = Pod;
+			name = WeakTimer;
+			sourceTree = "<group>";
+		};
+		6942874FF6365EC288C644D644211674 /* LZ4 */ = {
+			isa = PBXGroup;
+			children = (
+				2FCFFA51FF5B7FD53D0C25207CF09B98 /* lz4.h */,
+				297FB392E350C5956D3C689DF27B5AE8 /* lz4.m */,
+			);
+			name = LZ4;
+			sourceTree = "<group>";
+		};
+		6F50E8CA01F7C558ADB65BB913B0FD97 /* MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				4D4CF2E7B9B6A7CF2398E30BA62DA835 /* NSString+MD5.h */,
+				00811E95678A173D184A3195064E36E0 /* NSString+MD5.m */,
+			);
+			name = MD5;
+			sourceTree = "<group>";
+		};
+		7E601DC03F5372B15C5920193D9454C5 /* TTRangeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				356C8E27BA5576E9D07CC5A23F89036D /* TTRangeSlider.h */,
+				3E146AAB2CE143929838FBA11EBFD793 /* TTRangeSlider.m */,
+				D581D3146A29994BED6BF3C27BC4759C /* TTRangeSliderDelegate.h */,
+			);
+			name = TTRangeSlider;
+			sourceTree = "<group>";
+		};
+		821F2566783455588EE9700E2FEB98C2 /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				1F26BC959CA0A83D1E7A677625D74AA7 /* Aspects.h */,
+				A7CE69C75B38065C0F6F4E1C0B5592D6 /* Aspects.m */,
+			);
+			name = Aspects;
 			sourceTree = "<group>";
 		};
 		A329CB1065EA7D65C593EAE76C6A9540 /* Pods-FIPTools_Example */ = {
@@ -181,11 +722,68 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		B555C946D6FCB64B98184A997FFB5BBA /* PrintBeautifulLog */ = {
+			isa = PBXGroup;
+			children = (
+				66C879B24F080558D75BE60AF25AA7D1 /* PrintBeautifulLog.h */,
+				877D8B591CED0A50D06EC7EEBFF715E9 /* PrintBeautifulLog.m */,
+			);
+			name = PrintBeautifulLog;
+			sourceTree = "<group>";
+		};
+		BB6D7F8D370CD4C00AE6D1CD84063994 /* KMCrashProtector */ = {
+			isa = PBXGroup;
+			children = (
+				CC500934325FC8882E20A09B336E405E /* KMCrashLog.h */,
+				9337146E92BB4190A8237A5BFFAD35BC /* KMCrashLog.m */,
+				60DEFB9C8FE178EA9263D148414D49DB /* KMCrashProtectorManager.h */,
+				5FAC933B6E460D5746C466532AD90174 /* KMCrashProtectorManager.m */,
+				FBB01297E9F5F72CD877BEF5FD2D027D /* NSArray+KMCrash.h */,
+				6BBA035EEB5AFA261BE9E8E441C745C5 /* NSArray+KMCrash.m */,
+				D9161CCDEAA60B071F9805C1072332E7 /* NSAttributedString+KMCrash.h */,
+				B4AB99D0843627313EFA23C3B92A450E /* NSAttributedString+KMCrash.m */,
+				8836B20D987E964C19A2E9E380F4138E /* NSDictionary+KMCrash.h */,
+				ACD9DF57316A993BC086D516105AB058 /* NSDictionary+KMCrash.m */,
+				0ECFBE1249F2D8EB635886F237D738EF /* NSMutableArray+KMCrash.h */,
+				AC546D212AB5999FF543991E4FF6AA29 /* NSMutableArray+KMCrash.m */,
+				3760F538B83C1BC87B1FE7A448B788C9 /* NSMutableAttributedString+KMCrash.h */,
+				D8A56B1B27F1186F82FE33DE9A5FD4BC /* NSMutableAttributedString+KMCrash.m */,
+				31215B6417F0BCA34174892565C05E1C /* NSMutableDictionary+KMCrash.h */,
+				4AF4895F3B199ACCC33D58E575E2DA9C /* NSMutableDictionary+KMCrash.m */,
+				FDB531C0C74218A7716005AFAF6911F8 /* NSMutableString+KMCrash.h */,
+				5738D87DE00C68AB8420C8FA0A50EF1F /* NSMutableString+KMCrash.m */,
+				F67B61E70F74310C70112CE1AC5DD4A1 /* NSObject+KMSwizzle.h */,
+				36ECE24B9C2ABBE019C8730F05171AF5 /* NSObject+KMSwizzle.m */,
+				5068276CDF11A1A21AB9CC3B1A86388F /* NSObject+KVOCrash.h */,
+				A0E8068294E9D7A28914A052BD093898 /* NSObject+KVOCrash.m */,
+				FE844EC67A21C8C94B09A51293E78F3A /* NSObject+NSNotificationCrash.h */,
+				9A4DF4174214138B194B8742CD8E89D8 /* NSObject+NSNotificationCrash.m */,
+				FA2C57FD5EAE4B0C5258C2DD89A11F8E /* NSObject+SelectorCrash.h */,
+				D8F7AF28D061F6C8CF8E991E2B11CE9B /* NSObject+SelectorCrash.m */,
+				944FC9BCFE14EE4F83E374B2915D28F8 /* NSString+KMCrash.h */,
+				0BC21B8C500A58E622DD0C9493C667EA /* NSString+KMCrash.m */,
+				BAD959392CB4B3D4C31C0B7E4420DE64 /* NSTimer+Crash.h */,
+				478C85C0E254F9A53612019709D15267 /* NSTimer+Crash.m */,
+				28B548DA534346CBF0BCF3EB8BA341FF /* UIControl+Click.h */,
+				E830BEB01A6C28CAC8FF38002555345A /* UIControl+Click.m */,
+			);
+			name = KMCrashProtector;
+			sourceTree = "<group>";
+		};
+		C0634B0D19F99CE7703D249F679636C7 /* Segment */ = {
+			isa = PBXGroup;
+			children = (
+				8D709020D0E398B60FB90BEF84D96B93 /* HMSegmentedControl.h */,
+				5ED6FE387C6A06B5F112ED791E5A73D9 /* HMSegmentedControl.m */,
+			);
+			name = Segment;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D8E227ABA865554C901D02AC59FD3CBD /* Development Pods */,
+				FF5AF74E2AA05E0BFA4E8E959B78FC83 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				2B9445CABE85C91D0688E186A85DCB47 /* Products */,
 				ABFAD9CF5AC49F0B9040610F183A4E54 /* Targets Support Files */,
@@ -200,45 +798,199 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D8E227ABA865554C901D02AC59FD3CBD /* Development Pods */ = {
+		D7809AEBBD57C4BF9FCA7EFBD3E4C017 /* KLCPopup */ = {
 			isa = PBXGroup;
 			children = (
-				238AC08935C38D66E3D40DC6B2C3B4B2 /* FIPTools */,
+				D966A7B415B2BF59939C2F826849208F /* KLCPopup.h */,
+				0DDF25527B9C4E2061BFCD97D5BC7652 /* KLCPopup.m */,
 			);
-			name = "Development Pods";
+			name = KLCPopup;
 			sourceTree = "<group>";
 		};
-		F1B77481B52DD98F6303E4A2E658DE46 /* Support Files */ = {
+		DA9C1576055A651335827B2331E3194F /* InputKit */ = {
 			isa = PBXGroup;
 			children = (
-				B8369BEF672CBD60AFEBF7B8A3004E16 /* FIPTools.modulemap */,
-				CAC8A192E979AF0981DADCD5E5DE5469 /* FIPTools-dummy.m */,
-				6883DD2F1646A71E0FEDB23546683B26 /* FIPTools-Info.plist */,
-				FC8B7322D929905A93F1799853B89DEA /* FIPTools-prefix.pch */,
-				AD2A29E064198D0FEBE53EB16318A004 /* FIPTools-umbrella.h */,
-				113B391CB1D59DA728F2047C521DC375 /* FIPTools.debug.xcconfig */,
-				DBDC21639E760C678E971FB953657F50 /* FIPTools.release.xcconfig */,
+				07AD65E14B2116BEB944F3B12DC4DF02 /* InputKit.h */,
+				74AFF449E81D8C10BCE426A80AC564E0 /* TXDynamicDelegate.h */,
+				6AB0DD8B2BBE7776F01033556B645587 /* TXDynamicDelegate.m */,
+				168EC93389F9596C9995599AEDF11D34 /* TXLimitedTextField.h */,
+				2C0046DAEF1D0CED4E08878BDC666FDB /* TXLimitedTextField.m */,
+				3FBCE1F65AAA10E794F2231A96C2ECC9 /* TXLimitedTextView.h */,
+				9DC8CFE137141EA8C47710BAA8B6AA0F /* TXLimitedTextView.m */,
+				D47EDF81C66DFB2EDABE85379F16DA9E /* TXMatchConst.h */,
+				168D3DF1C3CA481E39CD67B3B8447B17 /* TXMatchConst.m */,
+				8E6519EB6A396F9A8AC5E22FB1918D23 /* TXMatchManager.h */,
+				4CFD5D38CF3F19736F67A0CE3848257E /* TXMatchManager.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FIPTools";
+			name = InputKit;
+			sourceTree = "<group>";
+		};
+		E5A930489F5E9E973EA5CEF500758C41 /* NullSafe */ = {
+			isa = PBXGroup;
+			children = (
+				FFF6D4FBFB01BB528D3E87F8A95C201A /* NullSafe.m */,
+			);
+			name = NullSafe;
+			sourceTree = "<group>";
+		};
+		F5A0BE85E77EBF18EA37D7842144BCAE /* GYRollingNoticeView */ = {
+			isa = PBXGroup;
+			children = (
+				1A6DDC087C1B7AAAE845BB18BAB60727 /* GYNoticeViewCell.h */,
+				EBD303F5958EE26F31FF87B5979BD3A0 /* GYNoticeViewCell.m */,
+				C2DD18F27DE42BBE5F918F737E8B9BDF /* GYRollingNoticeView.h */,
+				84421FBC9F3289CB04BA058EB2CD83C3 /* GYRollingNoticeView.m */,
+			);
+			name = GYRollingNoticeView;
+			sourceTree = "<group>";
+		};
+		F6F64A5478DF26A3CC813DBBD576F4CB /* ThirdLib */ = {
+			isa = PBXGroup;
+			children = (
+				821F2566783455588EE9700E2FEB98C2 /* Aspects */,
+				4B21B9587959004DE809DB4772295DFA /* ExcelChart */,
+				F5A0BE85E77EBF18EA37D7842144BCAE /* GYRollingNoticeView */,
+				DA9C1576055A651335827B2331E3194F /* InputKit */,
+				D7809AEBBD57C4BF9FCA7EFBD3E4C017 /* KLCPopup */,
+				6942874FF6365EC288C644D644211674 /* LZ4 */,
+				6F50E8CA01F7C558ADB65BB913B0FD97 /* MD5 */,
+				E5A930489F5E9E973EA5CEF500758C41 /* NullSafe */,
+				B555C946D6FCB64B98184A997FFB5BBA /* PrintBeautifulLog */,
+				1BB3E2A8C869D7E3C141DEB7E3060584 /* Rc4Base64 */,
+				4FB795B6D614CBEB8D1E4852FBEBB61D /* RSA */,
+				C0634B0D19F99CE7703D249F679636C7 /* Segment */,
+				7E601DC03F5372B15C5920193D9454C5 /* TTRangeSlider */,
+				640D3AE3D4D9E3A003329E48EE3112E7 /* WeakTimer */,
+				4FDF430FB99CB7FD92A56B76FAB8F226 /* WMPageController */,
+				574F0E2DC0DB4E845E33E91AE0152C31 /* YLGIFImage */,
+			);
+			name = ThirdLib;
+			sourceTree = "<group>";
+		};
+		F862927125C286F9AF9EEC811F257453 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				71AA823FD16CAA47B529D92B4A9C0A93 /* FIPTools.podspec */,
+				CE6FA958DC101715B62A7033B5943106 /* LICENSE */,
+				BAD7BE88A8CF17F9F94EAECFEAC5CEEE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FF5AF74E2AA05E0BFA4E8E959B78FC83 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C82B8EDA89CD73F42672CD8BFBE0C52 /* FIPTools */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		78FC19D352E907DAEE1F384C2B34E3C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0062D27125E42797DC985DDB7D7B4C6A /* Address.h in Headers */,
+				809EABC47CD728B91DFE6298B3C25B93 /* Aspects.h in Headers */,
+				E7593169BF04C80C0FF7A8F82F97F718 /* base64.h in Headers */,
+				70B2BCD80B23A9AB6C0E14E19C97CAF2 /* Borders.h in Headers */,
+				1DC2DE829984477296BD653146D93C21 /* CircualrScrolling.h in Headers */,
+				59C781F09FEE2755CEBF26374544E699 /* Define.h in Headers */,
+				4F4BF4E78905E82FEBC30DBA184FA539 /* EncodeControl.h in Headers */,
+				8B5A8CF01E52A5CF4AB3B367CC0CFA12 /* FIPTools.h in Headers */,
+				E8039CAA26590908DB2F36E4D67FE756 /* FIPTools-umbrella.h in Headers */,
+				8E7BB27CAC4409162967269745D470D8 /* Gridlines.h in Headers */,
+				409AF7B52BC437655D6AC84DCD72D5F8 /* GYNoticeViewCell.h in Headers */,
+				6F749DDFB9A31698C8986DD3163B4ABE /* GYRollingNoticeView.h in Headers */,
+				DA0E2EB090A06862C2CB6FF02A8DECF8 /* HMSegmentedControl.h in Headers */,
+				E96B25DD3A79EE65FB05B666D8AB8C7F /* InputKit.h in Headers */,
+				E061A0FB304CEF5ED9C8C38CD732022C /* KLCPopup.h in Headers */,
+				8204A0CD02D6865ECAB46C4A0F47DA73 /* KMCrashLog.h in Headers */,
+				C6FA98B21EF04CF02BF52A2400339717 /* KMCrashProtectorManager.h in Headers */,
+				24E18F5C3B4197EFE59B099B6FA6D533 /* Location.h in Headers */,
+				8E4D682A7AE6A935A586E65FE2AE8567 /* lz4.h in Headers */,
+				CD3AF79ABE40019D0977A8CE39C4E950 /* MSWeakTimer.h in Headers */,
+				321C918D163DEAF14107317B3C46DFC2 /* NSArray+BinarySearch.h in Headers */,
+				D4E47D5D16391BBD4C22BEA0B7A8BBDC /* NSArray+DeepCopy.h in Headers */,
+				C9E52871643E2B4DFF8C61301D348A52 /* NSArray+EmptySafe.h in Headers */,
+				53D1B4DBE2AB1D69151B3EBAD5D9D782 /* NSArray+KMCrash.h in Headers */,
+				F3810F48A32E85D1CC4438C149B68600 /* NSArray+WBGAddition.h in Headers */,
+				085FE8F3E0CBA54D58F6ED256F70BABA /* NSAttributedString+KMCrash.h in Headers */,
+				56D77D7327612872066E370C4BA80BAA /* NSDate+DLExtension.h in Headers */,
+				F28B9E6D84B2EA25F366EB9C76844A73 /* NSDictionary+KMCrash.h in Headers */,
+				529D949F8FE3426D3731494B0A6E6B9F /* NSDictionary+WBGAdd.h in Headers */,
+				1D3D6D40A6CE6C9FB5B817F9F38D6CBC /* NSIndexPath+column.h in Headers */,
+				BAB7BE9B8105FBB9D16843F61F1B4943 /* NSMutableArray+KMCrash.h in Headers */,
+				3C0A55824606A7063F70A7813C0B2EC3 /* NSMutableAttributedString+KMCrash.h in Headers */,
+				3177797B0810346868CBAC22334DF727 /* NSMutableAttributedString+VExtension.h in Headers */,
+				F55C0990398B396CCC3596DB9B4F06F6 /* NSMutableDictionary+KMCrash.h in Headers */,
+				72C6022A2D372267463909F4B77394EC /* NSMutableString+KMCrash.h in Headers */,
+				BA086E1BA760EE0EA2360757772AB82C /* NSNumber+Operation.h in Headers */,
+				5EEC4A9871C32220D77D6CF4A5D60CAB /* NSObject+KMSwizzle.h in Headers */,
+				2F2DE9EE6536A18473EFFEBF8AC5929C /* NSObject+KVOCrash.h in Headers */,
+				0938FB0E9339E7861EE64BAAFCF65BE8 /* NSObject+LSDefaults.h in Headers */,
+				2BEE2495DF39204B0027B140E1633C11 /* NSObject+NSNotificationCrash.h in Headers */,
+				A9C75A80AEAD72FF40F54565F8DAE5C7 /* NSObject+SelectorCrash.h in Headers */,
+				37B47A1ADEC01D0CF37AD2F9D96CBBE3 /* NSPointerArray+Extensions.h in Headers */,
+				E6F98FBF7E62C071D93EF1474E30DDDB /* NSString+BHURLHelper.h in Headers */,
+				DD9CE0E873D87C7B87E7442196E70EFA /* NSString+Calculate.h in Headers */,
+				54059F6407B5C2D0907FE9B4550454B7 /* NSString+Extensions.h in Headers */,
+				C76C6777189037258217646327863596 /* NSString+KMCrash.h in Headers */,
+				E2FBF69E6578B0E0B6FB7E0705FA22C2 /* NSString+MD5.h in Headers */,
+				7CE47BE81C4F8F23DADD973F7C52717A /* NSString+VExtension.h in Headers */,
+				09C3B59C7DF31F29F6C4C6A015673E99 /* NSTimer+Crash.h in Headers */,
+				0CE4E1E8A0318044BFAE956CF37D34E1 /* PrintBeautifulLog.h in Headers */,
+				387FA35B0A031E762A21EC33755C6E76 /* rc4Encode.h in Headers */,
+				503A90CCE09802EDC2394B56AE454EAC /* ReuseQueue.h in Headers */,
+				5EAC0CCD8F0C4ED40BA3E6781AEE7653 /* RSA.h in Headers */,
+				9F4B8858D5A1BEBAE457298C195A4FCF /* SpreadsheetView.h in Headers */,
+				845F021C410ABDEE1C2F7C33E7D03C6B /* SpreadsheetView+CirclularScrolling.h in Headers */,
+				BAB0DD41061751A84CC0567AB766C2F2 /* SpreadsheetView+Layout.h in Headers */,
+				7EB38A78817EB71E0ABD59BB400DA908 /* SpreadsheetView+Touches.h in Headers */,
+				96406D4550B2736587C99DBB7A2D1FEF /* SpreadsheetView+UIScrollView.h in Headers */,
+				3D08DD71678FC4006E1091F37ACD6834 /* SpreadsheetView+UIScrollViewDelegate.h in Headers */,
+				56C501413A9784FC03DB01585A46BECA /* SpreadsheetView+UISnapshotting.h in Headers */,
+				47DE3770C6956FAEB3C92419DC608EF0 /* SpreadsheetView+UIViewHierarchy.h in Headers */,
+				54B2078345823ABF02798330E909B1AE /* SpreadsheetViewDataSource.h in Headers */,
+				091529D44990A54157BEC77B82C88BDE /* SpreadsheetViewDelegate.h in Headers */,
+				1289902A44F43213827716BC56976158 /* TTRangeSlider.h in Headers */,
+				1CA64FFA8840CA6A3B1F8D14B6227F49 /* TTRangeSliderDelegate.h in Headers */,
+				2721D9E52DA62056E8EE6D544B3090B1 /* TXDynamicDelegate.h in Headers */,
+				21D36DCA6F17365EC12215567FEAF43A /* TXLimitedTextField.h in Headers */,
+				E6107570231772A0C2C0436B902CE8F1 /* TXLimitedTextView.h in Headers */,
+				4810A3698BD9413B644502329CE65E7A /* TXMatchConst.h in Headers */,
+				9687532186D64CE54EED9C1856C631C9 /* TXMatchManager.h in Headers */,
+				D1A7939AD60C55A824BA75EDC95C863B /* UIApplication+Visible.h in Headers */,
+				71B06153509BC8D88A6B90774FBD60C9 /* UIButton+FIPExtension.h in Headers */,
+				2628040B925D0D66C945D8C94D7EE884 /* UIColor+FIPExtension.h in Headers */,
+				DB8B22C4F258817DAF78A4E8FC62D29D /* UIControl+Click.h in Headers */,
+				E5C17ED77B75B631F5401A58B56532B3 /* UIImage+BSKit.h in Headers */,
+				2AA1F9A91FD229252859573F16BA92FD /* UILabel+VExtension.h in Headers */,
+				0EFC2B20267BBC3CAC57160FD40F1F26 /* UISegmentedControl+UIStyle.h in Headers */,
+				7668ABD4858D4FA54BAE20DA12913341 /* UIViewController+WMPageController.h in Headers */,
+				0EFE0046DF217288F075B6E1AFB0A6F0 /* WMMenuItem.h in Headers */,
+				4E6B0E43024E01ACD45F71EBD67357FB /* WMMenuView.h in Headers */,
+				98A018CACB1FD3F0C8B8D8B098B167E0 /* WMPageController.h in Headers */,
+				DEB6F2A6CCA0EECCC83359CC9D149D7E /* WMProgressView.h in Headers */,
+				2DA7707C1F5B6FD1408D4E45C5A34C17 /* WMScrollView.h in Headers */,
+				7A961EBCCAAEBA30231270834C546539 /* YLGIFImage.h in Headers */,
+				A09177DAAF773CDD4262260BE9CE084A /* YLGIFImageInSwiftProjectDemo-Bridging-Header.h in Headers */,
+				88C94E079EFF66897C5D24405998EB36 /* YLImageView.h in Headers */,
+				A7F271945088230A22BF99016E2DE172 /* ZMJCell.h in Headers */,
+				CE7035388A1703DBFD9F0873B04BE66A /* ZMJCellRange.h in Headers */,
+				8F7B79F16B67BD6D939A5989F5EF6F50 /* ZMJGanttChart.h in Headers */,
+				2512959A7175BF17538AFC5444562C34 /* ZMJLayoutEngine.h in Headers */,
+				01C05E7C1479E59D7997B318605D29A1 /* ZMJScrollView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7F0C899534D7B1E5F626912ECCAA1CC4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C1ADBB46977EB978BB9BBE8E9C750739 /* Pods-FIPTools_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C8403E6780E68FD25BB8A2216D5B3363 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4BEB6DCC820E4733249E7C753B48DC8 /* FIPTools-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +1017,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4EE8A7C89443C3B114BFC6B965B978B2 /* PBXTargetDependency */,
+				D56003A476C23A6934466BD2C8A40BF7 /* PBXTargetDependency */,
 			);
 			name = "Pods-FIPTools_Example";
 			productName = Pods_FIPTools_Example;
@@ -284,7 +1036,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				5A6A64E1D27AA7E26B17FAD726500382 /* PBXTargetDependency */,
+				D76569EB75C3168284473E7ACDCC36C1 /* PBXTargetDependency */,
 			);
 			name = "Pods-FIPTools_Tests";
 			productName = Pods_FIPTools_Tests;
@@ -293,12 +1045,12 @@
 		};
 		D1D0D4F3FEB8C97BC340D817A708F3A5 /* FIPTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7D9E48871AB74AF38DFAC01E0849B9E3 /* Build configuration list for PBXNativeTarget "FIPTools" */;
+			buildConfigurationList = 16D667B172A4306C552859CE31F62B4B /* Build configuration list for PBXNativeTarget "FIPTools" */;
 			buildPhases = (
-				C8403E6780E68FD25BB8A2216D5B3363 /* Headers */,
-				3EA3F5E212586C08FD3B26936F2517B4 /* Sources */,
-				CDA5B4750A08015D284D4C321B5980B8 /* Frameworks */,
-				067B2E39C02BC93C000924EFC262CE49 /* Resources */,
+				78FC19D352E907DAEE1F384C2B34E3C2 /* Headers */,
+				C11083B8FC5583C6343119BB883D80A0 /* Sources */,
+				F7116C674F89CF65C3CF1E5B27C795CE /* Frameworks */,
+				BBEF9D7514C56BD18B0EEBC2B4614BB3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -339,13 +1091,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		067B2E39C02BC93C000924EFC262CE49 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		869C52403016FC3003C2C18E0A019A9A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -360,18 +1105,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		3EA3F5E212586C08FD3B26936F2517B4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		BBEF9D7514C56BD18B0EEBC2B4614BB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1EDA4C0DC54CBB9A75C7C0A46852C0D /* FIPTools-dummy.m in Sources */,
-				527A3ED7B24D8668623C258BBB6406D7 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		6D08EFBB263CDEB604F9B4777B832127 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -388,20 +1131,109 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C11083B8FC5583C6343119BB883D80A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEDD629892C86C2E266FA432AD8FE35 /* Address.m in Sources */,
+				1AF403E6296336B65EB41CFB46AD1CFB /* Aspects.m in Sources */,
+				98D3F3E3A239B82F1E403A0597ACE866 /* Borders.m in Sources */,
+				487E2A1D2D4D596B4B0AA2775BB26D49 /* CircualrScrolling.m in Sources */,
+				561570E00904141AE2B0A325FA3F041A /* EncodeControl.m in Sources */,
+				38E33B3F355DDC3AF68226ADE2099D69 /* FIPTools-dummy.m in Sources */,
+				07367B0F4C0223374488096A0A1BC364 /* Gridlines.m in Sources */,
+				02865C0E48B21B79E7D349A54A32527B /* GYNoticeViewCell.m in Sources */,
+				73F78B467725B243C859D00E2DDAB585 /* GYRollingNoticeView.m in Sources */,
+				B5C6CF196BB9D966284D64CE53800394 /* HMSegmentedControl.m in Sources */,
+				C2A85973E7A90ED00E6E68535F65C8DC /* KLCPopup.m in Sources */,
+				575543B87883A70978FA9B163B462699 /* KMCrashLog.m in Sources */,
+				E907EFF7B3434FBEBF7E7A35FE773332 /* KMCrashProtectorManager.m in Sources */,
+				1FB0DF288F1EB54BB05D27E736E33196 /* Location.m in Sources */,
+				B56C12DD6AE180277492CD8A4F177A19 /* lz4.m in Sources */,
+				FDB89CC93A249F9255D1DC1237DD007F /* MSWeakTimer.m in Sources */,
+				B27EFF864C4AF3E2E7E725C87F6867C4 /* NSArray+BinarySearch.m in Sources */,
+				BE86994C58FA380CC4D737601423E97D /* NSArray+DeepCopy.m in Sources */,
+				88AABB1D24C3CEE3689C7288A32F0BF4 /* NSArray+EmptySafe.m in Sources */,
+				92BE5AF89BA48E702FAA99B821F9C89D /* NSArray+KMCrash.m in Sources */,
+				6A52AAB7846CB8C6F0809AD7930D6C5C /* NSArray+WBGAddition.m in Sources */,
+				0217EBBD95C03264BB863469C7A42A54 /* NSAttributedString+KMCrash.m in Sources */,
+				863FF6FC0D58AD3EE872932257BC1B32 /* NSDate+DLExtension.m in Sources */,
+				58793BCBC1D6D1F3999393ADDACFD53C /* NSDictionary+KMCrash.m in Sources */,
+				11D8D6B80DC83F6F9B411A7544C8F173 /* NSDictionary+WBGAdd.m in Sources */,
+				194F9103DDC96691F39B67B698C54A06 /* NSIndexPath+column.m in Sources */,
+				B48521C6E3D0F18F47A250E727D62A3F /* NSMutableArray+KMCrash.m in Sources */,
+				A8F9F8A253DE4DDA79B15EED9F7AB515 /* NSMutableAttributedString+KMCrash.m in Sources */,
+				F349BFC2429A3AF19CC4C532ACF77CE4 /* NSMutableAttributedString+VExtension.m in Sources */,
+				FD419D96AECD420FFB546BFF089B9196 /* NSMutableDictionary+KMCrash.m in Sources */,
+				5BF889FBD82C140A95D0EEB252C1AFB9 /* NSMutableString+KMCrash.m in Sources */,
+				041F68CFFA17C850DFB4F59D87513659 /* NSNumber+Operation.m in Sources */,
+				27878DEDA7214CDBC2E2BA871F469320 /* NSObject+KMSwizzle.m in Sources */,
+				A875AFAA238567C7A4C9C8D25CA06A95 /* NSObject+KVOCrash.m in Sources */,
+				2E49FDEC8396B0BC3145F9D72AE295DA /* NSObject+LSDefaults.m in Sources */,
+				8D37DF5715A8DF622402B1BDFC462B76 /* NSObject+NSNotificationCrash.m in Sources */,
+				D947465B9475896B7196EAFE5EAF9467 /* NSObject+SelectorCrash.m in Sources */,
+				0F5CAD43195C0CC25BE9F0B1CA98EE30 /* NSPointerArray+Extensions.m in Sources */,
+				DCCD1F3058226485FC596AC583C5AD9F /* NSString+BHURLHelper.m in Sources */,
+				B152E852C7A33A68ABA9B693F7DCD8FA /* NSString+Calculate.m in Sources */,
+				D2FC9D091D6013247C0AE672E5F2B8DA /* NSString+Extensions.m in Sources */,
+				CBC9E087D473096217895E9093DEF47D /* NSString+KMCrash.m in Sources */,
+				A21F7FA62CCD2090AEF511EA59094F84 /* NSString+MD5.m in Sources */,
+				8E34D165BF101AC2462A05ACA7E6E34D /* NSString+VExtension.m in Sources */,
+				E4E4E6B476CC292676F6C29463017B6A /* NSTimer+Crash.m in Sources */,
+				0800EEC989809F1385AFA8EDE1EEC840 /* NullSafe.m in Sources */,
+				294A8D0D50DC6509EF13071EFFA10C6A /* PrintBeautifulLog.m in Sources */,
+				19CDFA4A7836FDEED855DD6990A846A0 /* ReuseQueue.m in Sources */,
+				D306DB6DE6F444A7F4D20701EE83D41A /* RSA.m in Sources */,
+				82000B1B426A3D5485527A6217DED968 /* SpreadsheetView.m in Sources */,
+				AD2BFF1A5E95AABB1D33F11F5B34210F /* SpreadsheetView+CirclularScrolling.m in Sources */,
+				4A96E8FE8E3C84C072B51FE8FD2289C3 /* SpreadsheetView+Layout.m in Sources */,
+				44E004508F6EF3FCE981F4EF89F127A8 /* SpreadsheetView+Touches.m in Sources */,
+				15F91819C2B125E38920C7E4FED327DB /* SpreadsheetView+UIScrollView.m in Sources */,
+				34B83B8B2A778C052E8DC6919E0E7AA4 /* SpreadsheetView+UIScrollViewDelegate.m in Sources */,
+				E8041CADF92456F2734B0CFDE5A3CE2F /* SpreadsheetView+UISnapshotting.m in Sources */,
+				C3456A51F93B3B36E4D73F8BA2AFAEDB /* SpreadsheetView+UIViewHierarchy.m in Sources */,
+				9C482969B32754E040E1B8F0EE86B8B1 /* TTRangeSlider.m in Sources */,
+				8E093F779A8D66E12332B01CC6498234 /* TXDynamicDelegate.m in Sources */,
+				9930EEEA9734767A9514D6678E573849 /* TXLimitedTextField.m in Sources */,
+				8C78EE0519C474F044FA32F5818AE64B /* TXLimitedTextView.m in Sources */,
+				5C31952191C663BEA8457FBC8AE67511 /* TXMatchConst.m in Sources */,
+				66452A1D278A43AD82F4AA3418956843 /* TXMatchManager.m in Sources */,
+				1A60AE7DBDE5A4AFE9D6D82E13FB7B7D /* UIApplication+Visible.m in Sources */,
+				3499A92F51CE49897296F4E3422B4849 /* UIButton+FIPExtension.m in Sources */,
+				CBDADD15ED2869A543193CBF84A882FD /* UIColor+FIPExtension.m in Sources */,
+				F98013E30606FDB1C02D9B94ED278EBA /* UIControl+Click.m in Sources */,
+				4D8A2CA0E81DC2AF5559C47BFED70FB5 /* UIImage+BSKit.m in Sources */,
+				E4F9D7813B7BF753D36C69022AD4EBE7 /* UILabel+VExtension.m in Sources */,
+				1E6B6A2081E472325413E2F76FA618B9 /* UISegmentedControl+UIStyle.m in Sources */,
+				911F563C617517CCB7D8B1350D5B30C8 /* UIViewController+WMPageController.m in Sources */,
+				56D0EBBE44699CA33E046DB838868EAB /* WMMenuItem.m in Sources */,
+				3B69688205509FE2891E2D7D4860E70A /* WMMenuView.m in Sources */,
+				1E500B692C4235FFC12C8BC01CF3F6DB /* WMPageController.m in Sources */,
+				CBF4553BB09CBE283ADB5D46AE06DDB5 /* WMProgressView.m in Sources */,
+				72E096FA17D9905FA43A8F43B840D9A2 /* WMScrollView.m in Sources */,
+				F131140F59B7177BBC4E2A9ED24B246C /* YLGIFImage.m in Sources */,
+				05CCE52FF06C4537BE7BD5A4C0E729AA /* YLImageView.m in Sources */,
+				3BEB0D5D72BF4BE7FB4F040B0127810C /* ZMJCell.m in Sources */,
+				5E86EA873CA230CE7E60A862BCE50ED3 /* ZMJCellRange.m in Sources */,
+				E42291756BD1F2B89BFBA8B94D2C89D9 /* ZMJLayoutEngine.m in Sources */,
+				4B1287AF9A381E72C79BF68D3B947D2F /* ZMJScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4EE8A7C89443C3B114BFC6B965B978B2 /* PBXTargetDependency */ = {
+		D56003A476C23A6934466BD2C8A40BF7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FIPTools;
 			target = D1D0D4F3FEB8C97BC340D817A708F3A5 /* FIPTools */;
-			targetProxy = DF9B21B5BBE9B43982190A74BA28DA70 /* PBXContainerItemProxy */;
+			targetProxy = EF6828A5A17AA84D708F8F9E644C9B83 /* PBXContainerItemProxy */;
 		};
-		5A6A64E1D27AA7E26B17FAD726500382 /* PBXTargetDependency */ = {
+		D76569EB75C3168284473E7ACDCC36C1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-FIPTools_Example";
 			target = 96B0737DC31FB75109F1EBAC17DE17F1 /* Pods-FIPTools_Example */;
-			targetProxy = 0C1DFB2F9FB7AF9F3C23D090EC1268D6 /* PBXContainerItemProxy */;
+			targetProxy = 0C0520E8C3EB6685099E4DDE1C437E3D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -466,6 +1298,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		607AF53A3224E604DEF1F3CE3AC8E386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D878CF65097808F6AABE31D12A5CCA5D /* FIPTools.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FIPTools/FIPTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FIPTools/FIPTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FIPTools/FIPTools.modulemap";
+				PRODUCT_MODULE_NAME = FIPTools;
+				PRODUCT_NAME = FIPTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -568,69 +1432,6 @@
 			};
 			name = Debug;
 		};
-		9B2A4C1918EC81A14D89B1C66ABFD073 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 113B391CB1D59DA728F2047C521DC375 /* FIPTools.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FIPTools/FIPTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FIPTools/FIPTools-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FIPTools/FIPTools.modulemap";
-				PRODUCT_MODULE_NAME = FIPTools;
-				PRODUCT_NAME = FIPTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A5F122F60041C51C817A9B26142D94BB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBDC21639E760C678E971FB953657F50 /* FIPTools.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FIPTools/FIPTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FIPTools/FIPTools-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FIPTools/FIPTools.modulemap";
-				PRODUCT_MODULE_NAME = FIPTools;
-				PRODUCT_NAME = FIPTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		C2DCAE87D0A1E4337D9905BC587C1550 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7CF30698F816CF3B333251BD46D5C330 /* Pods-FIPTools_Tests.release.xcconfig */;
@@ -664,6 +1465,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		C594EA237C7F5BE555D2B8213575F005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1643D579B62FC518A987D620F7E508D /* FIPTools.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FIPTools/FIPTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FIPTools/FIPTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FIPTools/FIPTools.modulemap";
+				PRODUCT_MODULE_NAME = FIPTools;
+				PRODUCT_NAME = FIPTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -734,6 +1566,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		16D667B172A4306C552859CE31F62B4B /* Build configuration list for PBXNativeTarget "FIPTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C594EA237C7F5BE555D2B8213575F005 /* Debug */,
+				607AF53A3224E604DEF1F3CE3AC8E386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -748,15 +1589,6 @@
 			buildConfigurations = (
 				189F441E1823E6B4D1ABC0B5E0CC97C0 /* Debug */,
 				C2DCAE87D0A1E4337D9905BC587C1550 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7D9E48871AB74AF38DFAC01E0849B9E3 /* Build configuration list for PBXNativeTarget "FIPTools" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9B2A4C1918EC81A14D89B1C66ABFD073 /* Debug */,
-				A5F122F60041C51C817A9B26142D94BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

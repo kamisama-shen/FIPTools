@@ -7,6 +7,7 @@
 //
 
 #import "FIPViewController.h"
+#import <FIPTools/FIPTools.h>
 
 @interface FIPViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSString *str = [@"1234" calculateByAdding:@"222"];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

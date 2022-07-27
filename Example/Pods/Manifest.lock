@@ -1,5 +1,45 @@
 PODS:
-  - FIPTools (0.1.0)
+  - FIPTools (1.0.1):
+    - FIPTools/Category (= 1.0.1)
+    - FIPTools/KMCrashProtector (= 1.0.1)
+    - FIPTools/ThirdLib (= 1.0.1)
+  - FIPTools/Category (1.0.1)
+  - FIPTools/KMCrashProtector (1.0.1)
+  - FIPTools/ThirdLib (1.0.1):
+    - FIPTools/ThirdLib/Aspects (= 1.0.1)
+    - FIPTools/ThirdLib/Echarts (= 1.0.1)
+    - FIPTools/ThirdLib/ExcelChart (= 1.0.1)
+    - FIPTools/ThirdLib/GYRollingNoticeView (= 1.0.1)
+    - FIPTools/ThirdLib/InputKit (= 1.0.1)
+    - FIPTools/ThirdLib/KLCPopup (= 1.0.1)
+    - FIPTools/ThirdLib/LZ4 (= 1.0.1)
+    - FIPTools/ThirdLib/MD5 (= 1.0.1)
+    - FIPTools/ThirdLib/NullSafe (= 1.0.1)
+    - FIPTools/ThirdLib/PrintBeautifulLog (= 1.0.1)
+    - FIPTools/ThirdLib/Rc4Base64 (= 1.0.1)
+    - FIPTools/ThirdLib/RSA (= 1.0.1)
+    - FIPTools/ThirdLib/Segment (= 1.0.1)
+    - FIPTools/ThirdLib/TTRangeSlider (= 1.0.1)
+    - FIPTools/ThirdLib/WeakTimer (= 1.0.1)
+    - FIPTools/ThirdLib/WMPageController (= 1.0.1)
+    - FIPTools/ThirdLib/YLGIFImage (= 1.0.1)
+  - FIPTools/ThirdLib/Aspects (1.0.1)
+  - FIPTools/ThirdLib/Echarts (1.0.1)
+  - FIPTools/ThirdLib/ExcelChart (1.0.1)
+  - FIPTools/ThirdLib/GYRollingNoticeView (1.0.1)
+  - FIPTools/ThirdLib/InputKit (1.0.1)
+  - FIPTools/ThirdLib/KLCPopup (1.0.1)
+  - FIPTools/ThirdLib/LZ4 (1.0.1)
+  - FIPTools/ThirdLib/MD5 (1.0.1)
+  - FIPTools/ThirdLib/NullSafe (1.0.1)
+  - FIPTools/ThirdLib/PrintBeautifulLog (1.0.1)
+  - FIPTools/ThirdLib/Rc4Base64 (1.0.1)
+  - FIPTools/ThirdLib/RSA (1.0.1)
+  - FIPTools/ThirdLib/Segment (1.0.1)
+  - FIPTools/ThirdLib/TTRangeSlider (1.0.1)
+  - FIPTools/ThirdLib/WeakTimer (1.0.1)
+  - FIPTools/ThirdLib/WMPageController (1.0.1)
+  - FIPTools/ThirdLib/YLGIFImage (1.0.1)
 
 DEPENDENCIES:
   - FIPTools (from `../`)
@@ -9,8 +49,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FIPTools: 0d0ba5799c06d9810487055fc5f1aaae2095b030
+  FIPTools: d66956a72bfeff9b8ee0cb7f331c6e6a875ab724
 
-PODFILE CHECKSUM: 4413d4583f6f94b0459846993c97ef0538db265b
+PODFILE CHECKSUM: 7f57f66acded14f728c0dea8303a81b51e339b72
 
 COCOAPODS: 1.11.3
