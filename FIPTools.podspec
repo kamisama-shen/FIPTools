@@ -54,7 +54,7 @@ TODO: Add long description of the pod here.
     # 框架包含的资源包
     end
     ss.subspec 'Echarts' do |sss|
-      sss.source_files = 'FIPTools/Classes/ThirdLib/Echarts/*.{h,m}'
+      sss.source_files = 'FIPTools/Classes/ThirdLib/Echarts/*.js'
     # 框架包含的资源包
     end
     ss.subspec 'ExcelChart' do |sss|
@@ -90,7 +90,7 @@ TODO: Add long description of the pod here.
     # 框架包含的资源包
     end
     ss.subspec 'Rc4Base64' do |sss|
-      sss.source_files = 'FIPTools/Classes/ThirdLib/Rc4Base64/*.{h,m}'
+      sss.source_files = 'FIPTools/Classes/ThirdLib/Rc4Base64/*.{h,m,c}'
     # 框架包含的资源包
     end
     ss.subspec 'RSA' do |sss|
