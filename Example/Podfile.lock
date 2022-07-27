@@ -1,61 +1,22 @@
 PODS:
-  - FIPTools (1.0.1):
-    - FIPTools/Category (= 1.0.1)
-    - FIPTools/KMCrashProtector (= 1.0.1)
-    - FIPTools/ThirdLib (= 1.0.1)
-  - FIPTools/Category (1.0.1)
-  - FIPTools/KMCrashProtector (1.0.1)
-  - FIPTools/ThirdLib (1.0.1):
-    - FIPTools/ThirdLib/Aspects (= 1.0.1)
-    - FIPTools/ThirdLib/Echarts (= 1.0.1)
-    - FIPTools/ThirdLib/ExcelChart (= 1.0.1)
-    - FIPTools/ThirdLib/GYRollingNoticeView (= 1.0.1)
-    - FIPTools/ThirdLib/InputKit (= 1.0.1)
-    - FIPTools/ThirdLib/KLCPopup (= 1.0.1)
-    - FIPTools/ThirdLib/LZ4 (= 1.0.1)
-    - FIPTools/ThirdLib/MD5 (= 1.0.1)
-    - FIPTools/ThirdLib/NullSafe (= 1.0.1)
-    - FIPTools/ThirdLib/PrintBeautifulLog (= 1.0.1)
-    - FIPTools/ThirdLib/Rc4Base64 (= 1.0.1)
-    - FIPTools/ThirdLib/RSA (= 1.0.1)
-    - FIPTools/ThirdLib/Segment (= 1.0.1)
-    - FIPTools/ThirdLib/TTRangeSlider (= 1.0.1)
-    - FIPTools/ThirdLib/WeakTimer (= 1.0.1)
-    - FIPTools/ThirdLib/WMPageController (= 1.0.1)
-    - FIPTools/ThirdLib/YLGIFImage (= 1.0.1)
-  - FIPTools/ThirdLib/Aspects (1.0.1)
-  - FIPTools/ThirdLib/Echarts (1.0.1)
-  - FIPTools/ThirdLib/ExcelChart (1.0.1)
-  - FIPTools/ThirdLib/GYRollingNoticeView (1.0.1)
-  - FIPTools/ThirdLib/InputKit (1.0.1)
-  - FIPTools/ThirdLib/KLCPopup (1.0.1)
-  - FIPTools/ThirdLib/LZ4 (1.0.1)
-  - FIPTools/ThirdLib/MD5 (1.0.1)
-  - FIPTools/ThirdLib/NullSafe (1.0.1)
-  - FIPTools/ThirdLib/PrintBeautifulLog (1.0.1)
-  - FIPTools/ThirdLib/Rc4Base64 (1.0.1)
-  - FIPTools/ThirdLib/RSA (1.0.1)
-  - FIPTools/ThirdLib/Segment (1.0.1)
-  - FIPTools/ThirdLib/TTRangeSlider (1.0.1)
-  - FIPTools/ThirdLib/WeakTimer (1.0.1)
-  - FIPTools/ThirdLib/WMPageController (1.0.1)
-  - FIPTools/ThirdLib/YLGIFImage (1.0.1)
+  - FIPTools (1.0.1)
 
 DEPENDENCIES:
-  - FIPTools (from `https://github.com/kamisama-shen/FIPTools.git`)
+  - FIPTools (from `https://github.com/kamisama-shen/FIPTools.git`, tag `1.0.1`)
 
 EXTERNAL SOURCES:
   FIPTools:
     :git: https://github.com/kamisama-shen/FIPTools.git
+    :tag: 1.0.1
 
 CHECKOUT OPTIONS:
   FIPTools:
-    :commit: f28c0779609096b06aa5d003f8bb7e55273b6e23
     :git: https://github.com/kamisama-shen/FIPTools.git
+    :tag: 1.0.1
 
 SPEC CHECKSUMS:
-  FIPTools: d66956a72bfeff9b8ee0cb7f331c6e6a875ab724
+  FIPTools: c861a970fcfed69e8cacb650b716c71a26bda062
 
-PODFILE CHECKSUM: 71ae4936b687f29df755f5431adc1ff61d40f393
+PODFILE CHECKSUM: 933e369a6d686a733c0cecb218fc022b132016f6
 
 COCOAPODS: 1.11.3
