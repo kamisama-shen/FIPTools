@@ -8,6 +8,7 @@
 
 #import "FIPViewController.h"
 #import <FIPTools/FIPTools.h>
+#import <ATAuthSDK/ATAuthSDK.h>
 
 @interface FIPViewController ()
 
