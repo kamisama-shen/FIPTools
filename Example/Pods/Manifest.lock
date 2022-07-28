@@ -1,15 +1,24 @@
 PODS:
-  - FIPTools (1.0.8)
+  - FIPTools (1.1.0):
+    - YYKit (~> 1.0.9)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - FIPTools (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - YYKit
 
 EXTERNAL SOURCES:
   FIPTools:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FIPTools: ec0f19a5ede0c8957d4238882b53bcf4242b1c7b
+  FIPTools: 4457f9ec6b6dd82562edaf481f35b6b369a7420f
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
 PODFILE CHECKSUM: 78d5af6777fdfd0fc1bc227a801b09076ecbed30
 

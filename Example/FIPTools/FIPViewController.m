@@ -20,6 +20,7 @@
 {
     [super viewDidLoad];
     NSString *str = [@"1234" calculateByAdding:@"222"];
+    XJSafeTextField *firld = [[XJSafeTextField alloc] init];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
