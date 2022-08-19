@@ -65,7 +65,7 @@
 #import <FIPTools/TTRangeSliderDelegate.h>
 #import <FIPTools/TTRangeSlider.h>
 
-#import <FIPTools/SDCycleScrollView.h>
+//#import <FIPTools/SDCycleScrollView.h>
 #import <FIPTools/XJSafeTextField.h>
 
 

@@ -1,5 +1,5 @@
 PODS:
-  - FIPTools (1.1.0):
+  - FIPTools (1.1.5):
     - YYKit (~> 1.0.9)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
@@ -17,9 +17,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FIPTools: 4457f9ec6b6dd82562edaf481f35b6b369a7420f
+  FIPTools: f1829c69ee69fa05e0a4bb1c39b959dc9398a70a
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 78d5af6777fdfd0fc1bc227a801b09076ecbed30
+PODFILE CHECKSUM: 7acf04129d692f782024754416c2659795629a46
 
 COCOAPODS: 1.11.3

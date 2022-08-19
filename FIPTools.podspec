@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FIPTools'
-  s.version          = '1.1.4'
+  s.version          = '1.1.5'
   s.summary          = 'A short description of FIPTools.'
 
 # This description is used to generate tags and improve search results.
@@ -31,9 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '12.0'
 
   s.resources        = 'FIPTools/ATAuthSDK.framework/ATAuthSDK.bundle'
-  # s.vendored_frameworks = 'FIPTools/FIPTools.framework','FIPTools/ATAuthSDK.framework'
-  s.vendored_frameworks = 'FIPTools/ATAuthSDK.framework'
-
+  s.vendored_frameworks = 'FIPTools/FIPTools.framework','FIPTools/ATAuthSDK.framework'
+  
   # s.resource_bundles = {
   #   'FIPTools' => ['FIPTools/Assets/*.png']
   # }

@@ -4,7 +4,7 @@ platform :ios, '12.0'
 
 target 'FIPTools_Example' do
   pod 'FIPTools', :path => '../'
- # pod 'FIPTools', :git => 'https://github.com/kamisama-shen/FIPTools.git', :tag => '1.0.8'
+ # pod 'FIPTools', :git => 'https://github.com/kamisama-shen/FIPTools.git', :tag => '1.1.3'
   target 'FIPTools_Tests' do
     inherit! :search_paths
 

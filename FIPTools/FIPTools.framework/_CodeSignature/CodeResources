@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/FIPCategoryHeader.h</key>
 		<data>
-		P2Rea/yO5ZOgnhNFsLOTDHtw8jU=
+		NWXWjsvIpI7urF8jjqF2WXwd3Pc=
 		</data>
 		<key>Headers/FIPThirdLibHeader.h</key>
 		<data>
@@ -344,6 +344,10 @@
 		<data>
 		B4A5SaOUhY58zMJOnYBsCzQdaL8=
 		</data>
+		<key>Headers/UIView+VExtension.h</key>
+		<data>
+		k2CIiXsjlIcCJrsOLQj3yDQLMmo=
+		</data>
 		<key>Headers/UIViewController+WMPageController.h</key>
 		<data>
 		F9N4JzMQc8ixw5SpzwZa0i4uGyM=
@@ -426,7 +430,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wgsJelmrnURF4fQ0c8t7adp8Apk=
+		Q2w0j9MIenLHz45fvrm0CZFy3ng=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -537,11 +541,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			P2Rea/yO5ZOgnhNFsLOTDHtw8jU=
+			NWXWjsvIpI7urF8jjqF2WXwd3Pc=
 			</data>
 			<key>hash2</key>
 			<data>
-			hlNFXuMZVnCmWMu9o62xh7VpBDIp0RetMUBngmemvd0=
+			aFIM54YIjyytjzcmKw6kkbLP7Xtt/uDyUwX1DVsj9ds=
 			</data>
 		</dict>
 		<key>Headers/FIPThirdLibHeader.h</key>
@@ -1400,6 +1404,17 @@
 			<key>hash2</key>
 			<data>
 			f0kGaKMhooXVbUC9nWY+2EDFrkNmv4FflP0O51HJvNM=
+			</data>
+		</dict>
+		<key>Headers/UIView+VExtension.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			k2CIiXsjlIcCJrsOLQj3yDQLMmo=
+			</data>
+			<key>hash2</key>
+			<data>
+			YuRx+6BMpoGJAPT4PUuli7tBXb8/jiDnoukhnbBUNd8=
 			</data>
 		</dict>
 		<key>Headers/UIViewController+WMPageController.h</key>

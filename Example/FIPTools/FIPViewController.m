@@ -21,6 +21,7 @@
     [super viewDidLoad];
     NSString *str = [@"1234" calculateByAdding:@"222"];
     XJSafeTextField *firld = [[XJSafeTextField alloc] init];
+    UIView *line = [UIView lineView];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
